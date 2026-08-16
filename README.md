@@ -17,8 +17,12 @@ Every download button points at a GitHub Releases asset in the app's own reposit
 .
 ├── index.html              the download page
 ├── 404.html                styled not-found page
-├── CNAME                   custom domain: download.amsol.ca
-├── .nojekyll               serve files as-is, skip Jekyll processing
+├── docker-compose.yml      Coolify deployment (the live one)
+├── Dockerfile              nginx image containing the static files
+├── nginx.conf              routing, gzip, cache headers, /healthz
+├── .dockerignore
+├── CNAME                   custom domain, GitHub Pages only
+├── .nojekyll               GitHub Pages only: skip Jekyll processing
 ├── robots.txt
 ├── sitemap.xml
 └── assets/
@@ -83,14 +87,37 @@ python -m http.server 8765 --directory .
 Then open <http://localhost:8765>. Use a server rather than opening `index.html` directly, so
 the relative asset paths and the API calls behave the same as in production.
 
-## Deployment
+## Deployment (Coolify)
 
-Pushing to the default branch publishes the site. In **Settings → Pages**, the source is the
-branch root, and `CNAME` sets the custom domain. GitHub Pages requires the repository to be
-public unless the account is on a paid plan.
+The live site runs on the Coolify server that already hosts `amsol.ca`, so
+`download.amsol.ca` needs no DNS change — it already points there.
 
-DNS for the custom domain needs a `CNAME` record:
+Coolify application settings:
 
+| Field | Value |
+|---|---|
+| Build Pack | Docker Compose |
+| Branch | `main` |
+| Base Directory | `/` |
+| Docker Compose Location | `/docker-compose.yml` |
+| Domain | `https://download.amsol.ca` (port `80`) |
+
+`docker-compose.yml` builds `Dockerfile` into an nginx image holding the static files. Port 80
+is `expose`d to Coolify's proxy network rather than published to the host, so there are no port
+clashes with the other apps on the server. Coolify writes the proxy labels and handles TLS.
+
+A push to `main` triggers a redeploy if the webhook is enabled.
+
+To check it locally exactly as Coolify runs it:
+
+```bash
+docker compose up -d --build
 ```
-download.amsol.ca.   CNAME   alaahadyhostinger.github.io.
-```
+
+`GET /healthz` returns `ok` and backs the container healthcheck.
+
+### GitHub Pages
+
+Pages is also configured on this repo (branch root, with `CNAME`), but it does **not** serve
+production — DNS points at the Coolify server. `CNAME` and `.nojekyll` exist only for Pages and
+are excluded from the Docker image. Pages can be disabled without affecting the live site.
