@@ -1,0 +1,38 @@
+# Coolify deployment for download.amsol.ca
+#
+# Build Pack:             Docker Compose
+# Base Directory:         /
+# Docker Compose Location: /docker-compose.yml
+#
+# After the first deploy, set the domain in Coolify:
+#   Application -> Configuration -> Domains -> https://download.amsol.ca
+# Coolify writes the proxy labels and requests the TLS certificate itself, so no
+# ports are published to the host here - only exposed to Coolify's proxy network.
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+
+    # Exposed to the proxy, not bound to a host port. Coolify routes the domain
+    # to this port. If you prefer Coolify to generate the domain automatically,
+    # uncomment the SERVICE_FQDN line below instead of setting it in the UI.
+    expose:
+      - "80"
+    # environment:
+    #   - SERVICE_FQDN_WEB_80
+
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/healthz"]
+      interval: 30s
+      timeout: 5s
+      start_period: 5s
+      retries: 3
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

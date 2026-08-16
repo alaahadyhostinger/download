@@ -1,0 +1,11 @@
+# Keep the build context (and therefore the image) to just the site files.
+.git
+.gitignore
+.github
+Dockerfile
+.dockerignore
+docker-compose.yml
+README.md
+CNAME
+.nojekyll
+*.md
