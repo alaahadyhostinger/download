@@ -24,6 +24,13 @@ services:
     # environment:
     #   - SERVICE_FQDN_WEB_80
 
+    # Installers and version.json live on the host, not in this repo: the
+    # MagicVideo build alone is 106 MB, over GitHub's 100 MB per-file limit, so
+    # they can never be committed or baked into the image. Read-only here
+    # because only the deploy script should ever write them.
+    volumes:
+      - /opt/amsol/downloads:/srv/downloads:ro
+
     healthcheck:
       test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/healthz"]
       interval: 30s

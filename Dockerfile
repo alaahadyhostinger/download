@@ -12,6 +12,10 @@ WORKDIR /usr/share/nginx/html
 COPY index.html 404.html robots.txt sitemap.xml ./
 COPY assets/ ./assets/
 
+# Mount point for uploaded binaries and version.json. Created here so nginx
+# still starts (and falls back to GitHub) when nothing is mounted yet.
+RUN mkdir -p /srv/downloads
+
 EXPOSE 80
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \

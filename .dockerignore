@@ -9,3 +9,6 @@ README.md
 CNAME
 .nojekyll
 *.md
+dist/
+*.exe
+*.dmg
