@@ -1,0 +1,22 @@
+{
+  "product": "magicvideo",
+  "version": "1.1.2",
+  "published": "2026-08-20",
+  "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-setup.exe",
+  "size": 111914356,
+  "sha256": "7dded92ed9660b5374481d494ecbbd70d4d10ec1c561b2ad78b2db99f74b3817",
+  "notes": "https://github.com/alaahadyhostinger/magicvideo/releases/tag/v1.1.2",
+  "magicvideo": {
+    "version": "1.1.2",
+    "published": "2026-08-20",
+    "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-setup.exe",
+    "size": 111914356,
+    "sha256": "7dded92ed9660b5374481d494ecbbd70d4d10ec1c561b2ad78b2db99f74b3817",
+    "notes": "https://github.com/alaahadyhostinger/magicvideo/releases/tag/v1.1.2"
+  },
+  "magicpdf": {
+    "version": "1.0",
+    "windows": "https://github.com/alaahadyhostinger/magicpdf/releases/latest/download/magicpdf-setup.exe",
+    "notes": "https://github.com/alaahadyhostinger/magicpdf/releases/latest"
+  }
+}
