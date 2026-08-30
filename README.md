@@ -6,8 +6,8 @@ The public download page for Advanced Management Solutions desktop applications,
 
 | Application | Version | OS | Download | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **Magic-Watch** | v1.1.0 | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `eb77e2e7149737dbf75a46e049766334c495c578a25aadc795ad0f09d84d3404` |
-| **MagicMidi** | v1.2.0 | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `d60af26cddddd08b76869a953fb73770c13690cc1ffb350c7bcb983ecd1f5cb6` |
+| **Magic-Watch** | v1.1.0 | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `651bf800031568767f3e06a838f0682a6383f4f7ba836e1b1b2b3b502ab900b4` |
+| **MagicMidi** | v1.2.0 | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `167962edd9b8b70820dcd60eec1a50928d2ef5bb223e681413055276e976041c` |
 | **Magic Video** | v1.2.0 | Windows 10/11 (64-bit) | [`magicvideo-portable.zip`](https://github.com/alaahadyhostinger/magicvideo/releases/latest) | `3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf` |
 | **Magic PDF** | v1.0.0 | Windows 10/11 (64-bit) | [`magicpdf-latest.zip`](https://download.amsol.ca/magicpdf-latest.zip) | `60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a` |
 

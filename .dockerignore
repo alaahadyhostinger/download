@@ -1,4 +1,4 @@
-# Keep the build context (and therefore the image) to just the site files.
+# Keep the build context to the site files and zip distributions
 .git
 .gitignore
 .github

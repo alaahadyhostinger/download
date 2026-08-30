@@ -1,8 +1,6 @@
-# Installers and build output never belong in this repo - they are uploaded
-# straight to the download server. magicvideo-setup.exe alone is 106 MB, over
-# GitHub's 100 MB per-file hard limit, so a commit would be rejected outright.
+# Installers and build output
 dist/
 *.exe
 *.dmg
 *.msi
-*.zip
+# We allow distribution zip archives (.zip) in repo so they are packaged into the Docker container
