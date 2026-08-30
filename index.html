@@ -144,14 +144,14 @@
         <ul class="btn-row">
           <li>
             <a class="btn is-primary"
-               href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-setup.exe"
-               data-asset="magicvideo-setup.exe">
+               href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip"
+               data-asset="magicvideo-portable.zip">
               <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
               </svg>
               <span class="btn-text">
                 <span class="btn-label">Download MagicVideo for Windows</span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 · 64-bit</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 · 64-bit · no installer</span>
               </span>
             </a>
           </li>
@@ -177,8 +177,14 @@
         <details class="notes">
           <summary>Installation notes</summary>
           <div class="notes-body">
-            <p><strong>Windows.</strong> Run <code>magicvideo-setup.exe</code> and follow the
-            installer.</p>
+            <p><strong>Windows.</strong> There is nothing to install. Unzip
+            <code>magicvideo-portable.zip</code> anywhere you like — a USB stick is fine —
+            and double-click <code>MagicVideo.exe</code> inside it. No administrator
+            rights are needed and nothing is written to the registry.</p>
+            <p>Keep the unzipped folder together: <code>MagicVideo.exe</code> needs the
+            files beside it, ffmpeg included, and will not start on its own. Your settings
+            and downloads live in your user profile, so replacing the folder with a newer
+            version keeps them.</p>
             <p><strong>macOS.</strong> Not available yet. This page enables the macOS button
             automatically once the build is published.</p>
           </div>

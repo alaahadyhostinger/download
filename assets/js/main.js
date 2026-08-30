@@ -71,7 +71,10 @@
   function platformOf(el) {
     var name = el.getAttribute('data-asset') || el.getAttribute('data-pending-asset') || '';
     if (/\.dmg$/i.test(name)) return 'mac';
-    if (/\.exe$/i.test(name)) return 'windows';
+    // Checked before the .zip rule: macOS builds ship as .zip too, and calling
+    // one of those a Windows download would promote the wrong button.
+    if (/macos/i.test(name)) return 'mac';
+    if (/\.(?:exe|zip)$/i.test(name)) return 'windows';
     return '';
   }
 
