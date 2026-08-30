@@ -4,14 +4,14 @@
   "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip",
   "notes": "https://github.com/alaahadyhostinger/magicvideo/releases/tag/v1.2.0",
   "published": "2026-08-30",
-  "size": 158418857,
-  "sha256": "1a2db347a8db3d123370809e564f8134cafc7f6618743a14ddf14a3ec9509386",
+  "size": 158419766,
+  "sha256": "5a5ec20b048bdb425d7c4e0fa09a374bffb17f0d380c061d2c0149287bd6102e",
   "magicvideo": {
     "version": "1.2.0",
     "published": "2026-08-30",
     "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip",
-    "size": 158418857,
-    "sha256": "1a2db347a8db3d123370809e564f8134cafc7f6618743a14ddf14a3ec9509386",
+    "size": 158419766,
+    "sha256": "5a5ec20b048bdb425d7c4e0fa09a374bffb17f0d380c061d2c0149287bd6102e",
     "notes": "https://github.com/alaahadyhostinger/magicvideo/releases/tag/v1.2.0"
   },
   "magicpdf": {
