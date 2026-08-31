@@ -1,30 +1,30 @@
 {
   "portal": "download.amsol.ca",
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "products": {
     "magicwatch": {
       "name": "Magic-Watch",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "windows": "https://download.amsol.ca/magicwatch-latest.zip",
-      "published": "2026-08-30",
-      "size": 45995592,
-      "sha256": "651bf800031568767f3e06a838f0682a6383f4f7ba836e1b1b2b3b502ab900b4",
-      "description": "Pro-grade Desktop Gadget Watch (Digital & Analog Studio Modes)"
+      "published": "2026-08-31",
+      "size": 46001103,
+      "sha256": "d07c37e80630d2646948115487f32ec362924986c214a1b5b7c3af34f39876c5",
+      "description": "Pro-grade Desktop Gadget Watch with Visual Interval Alerts"
     },
     "magicmidi": {
       "name": "MagicMidi",
       "version": "1.2.0",
       "windows": "https://download.amsol.ca/magicmidi-latest.zip",
-      "published": "2026-08-30",
+      "published": "2026-08-31",
       "size": 92722577,
-      "sha256": "167962edd9b8b70820dcd60eec1a50928d2ef5bb223e681413055276e976041c",
+      "sha256": "3498c8045a2bf8645ea0151f970c31be2cdffec6a39400ec6350790849b64603",
       "description": "Desktop MIDI Studio, AI Audio-to-MIDI & Falling-Notes Visualizer"
     },
     "magicvideo": {
       "name": "Magic Video",
       "version": "1.2.0",
       "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip",
-      "published": "2026-08-30",
+      "published": "2026-08-31",
       "size": 158419766,
       "sha256": "3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf",
       "description": "Convert, trim, join and edit video & AI PureVoice audio."
@@ -33,7 +33,7 @@
       "name": "Magic PDF",
       "version": "1.0.0",
       "windows": "https://download.amsol.ca/magicpdf-latest.zip",
-      "published": "2026-08-30",
+      "published": "2026-08-31",
       "size": 40183020,
       "sha256": "60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a",
       "description": "Split, merge and reorganise PDF documents."
