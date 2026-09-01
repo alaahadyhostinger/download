@@ -5,7 +5,7 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d/site.conf
 
 WORKDIR /usr/share/nginx/html
-COPY index.html 404.html robots.txt sitemap.xml version.json ./
+COPY index.html 404.html privacy.html robots.txt sitemap.xml version.json ./
 COPY assets/ ./assets/
 COPY *.zip ./
 

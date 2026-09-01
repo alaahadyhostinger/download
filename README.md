@@ -6,8 +6,8 @@ The public download page for Advanced Management Solutions desktop applications,
 
 | Application | Version | OS | Download | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **Magic-Watch** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `e986ccd41f6ff0ea8ca94b3bb27d8c96be7a32a31091735052762eb5f22b8e1a` |
-| **MagicMidi** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `3d6d0d755e2b497192e7f9d5a6d2d267b4bd8df89a1b9cb1fc8fd835627874a2` |
+| **Magic-Watch** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `f2af45e8b6bda26cfade9417034328886667054d23b8d0c79576f312ee9dfeea` |
+| **MagicMidi** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `c8568c0c3ff5786435851a1b7a0369f8ddc44d964a01e1c27ddc9e3bc77b8dfb` |
 | **Magic Video** | v1.2.0 | Windows 10/11 (64-bit) | [`magicvideo-portable.zip`](https://github.com/alaahadyhostinger/magicvideo/releases/latest) | `3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf` |
 | **Magic PDF** | v1.0.0 | Windows 10/11 (64-bit) | [`magicpdf-latest.zip`](https://download.amsol.ca/magicpdf-latest.zip) | `60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a` |
 
@@ -16,6 +16,7 @@ The public download page for Advanced Management Solutions desktop applications,
 ```
 .
 ├── index.html            # Public download landing page with dark/light themes & OS detection
+├── privacy.html          # Comprehensive Privacy Policy & open-source declaration
 ├── 404.html              # Custom branded 404 error page
 ├── docker-compose.yml    # Coolify production deployment specification
 ├── Dockerfile            # Nginx 1.29-alpine serving static assets & zip bundles
@@ -24,7 +25,7 @@ The public download page for Advanced Management Solutions desktop applications,
 ├── robots.txt            # Search engine crawl directives
 ├── sitemap.xml           # Search engine sitemap
 ├── assets/
-│   ├── css/style.css     # AMS corporate theme & responsive grid styling
+│   ├── css/style.css     # AMS corporate theme, policy typography & responsive grid styling
 │   ├── js/main.js        # Progressive enhancement (OS detection, theme toggling, release hydration)
 │   └── img/              # Logos and application icons (MagicPDF, MagicVideo, MagicWatch, MagicMidi)
 ├── magicwatch-latest.zip # Standalone portable distribution package for Magic-Watch v1.2.0
@@ -48,4 +49,6 @@ Get-FileHash .\magicmidi-latest.zip -Algorithm SHA256
 ```
 
 ---
-&copy; 2026 Advanced Management Solutions · [amsol.ca](https://amsol.ca)
+Official Publisher: **Advanced Management Solutions (AMSOL)**  
+Privacy Policy: [https://download.amsol.ca/privacy.html](https://download.amsol.ca/privacy.html)  
+Corporate Site: [https://amsol.ca](https://amsol.ca)
