@@ -59,9 +59,12 @@
     <section class="hero">
       <h1>Downloads</h1>
       <p class="hero-sub">
-        Free desktop tools from Advanced Management Solutions.
-        These links always give you the newest release.
+        A collection of free, secure Windows tools for productivity and media management.
       </p>
+      <div class="security-badge">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        <span>This project uses <a href="https://signpath.org/" target="_blank" rel="noopener">SignPath Foundation</a> for secure code signing.</span>
+      </div>
     </section>
 
     <p id="platform-note" class="platform-note" hidden></p>
@@ -254,13 +257,16 @@
     </div>
 
     <section class="advisory">
-      <h2>Before you install</h2>
+      <h2>Security & Code Signing</h2>
+      <p class="signpath-note">
+        <strong>🛡️ Code Signing Notice:</strong> This project uses <a href="https://signpath.org/" target="_blank" rel="noopener">SignPath Foundation</a> for secure code signing.
+      </p>
       <p>
-        These builds are not code-signed, so Windows SmartScreen shows an
-        “unrecognised publisher” warning &mdash; choose <strong>More info &rarr; Run anyway</strong>.
+        While our signing pipeline is being finalized with the Certificate Authority, Windows SmartScreen may show an
+        “unrecognised publisher” notification &mdash; choose <strong>More info &rarr; Run anyway</strong>.
       </p>
       <p class="verify-intro">
-        Because the builds are unsigned, you can confirm a download is intact by checking its
+        You can also independently verify that your downloaded package matches our official build by checking its
         SHA-256 fingerprint:
       </p>
       <div id="checksums" class="checksums">
@@ -272,8 +278,8 @@
           <tbody id="checksum-rows">
             <tr><td>magicpdf-latest.zip</td><td>~38 MB</td><td class="digest">60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a</td></tr>
             <tr><td>magicvideo-latest.zip</td><td>~151 MB</td><td class="digest">3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf</td></tr>
-            <tr><td>magicwatch-latest.zip</td><td>~44 MB</td><td class="digest">f2af45e8b6bda26cfade9417034328886667054d23b8d0c79576f312ee9dfeea</td></tr>
-            <tr><td>magicmidi-latest.zip</td><td>~88 MB</td><td class="digest">c8568c0c3ff5786435851a1b7a0369f8ddc44d964a01e1c27ddc9e3bc77b8dfb</td></tr>
+            <tr><td>magicwatch-latest.zip</td><td>~44 MB</td><td class="digest">8c6fde0bc91b95ff37c115a98444b5cb58c78b3a43981c2352e8057f483239a2</td></tr>
+            <tr><td>magicmidi-latest.zip</td><td>~88 MB</td><td class="digest">2e5f35df4bf3eaf0cd43564116b35bd949a7989099230c3a3670f8afb0faa441</td></tr>
           </tbody>
         </table>
         <details class="notes">

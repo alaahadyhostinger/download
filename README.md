@@ -1,13 +1,15 @@
 # download.amsol.ca — Advanced Management Solutions Public Download Portal
 
-The public download page for Advanced Management Solutions desktop applications, served live via Coolify and Caddy at [https://download.amsol.ca](https://download.amsol.ca).
+A collection of free, secure Windows tools for productivity and media management, served live via Coolify and Caddy at [https://download.amsol.ca](https://download.amsol.ca).
+
+> **Security & Code Signing:** This project uses [SignPath Foundation](https://signpath.org/) for secure code signing.
 
 ## Featured Applications
 
 | Application | Version | OS | Download | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **Magic-Watch** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `f2af45e8b6bda26cfade9417034328886667054d23b8d0c79576f312ee9dfeea` |
-| **MagicMidi** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `c8568c0c3ff5786435851a1b7a0369f8ddc44d964a01e1c27ddc9e3bc77b8dfb` |
+| **Magic-Watch** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `8c6fde0bc91b95ff37c115a98444b5cb58c78b3a43981c2352e8057f483239a2` |
+| **MagicMidi** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `2e5f35df4bf3eaf0cd43564116b35bd949a7989099230c3a3670f8afb0faa441` |
 | **Magic Video** | v1.2.0 | Windows 10/11 (64-bit) | [`magicvideo-portable.zip`](https://github.com/alaahadyhostinger/magicvideo/releases/latest) | `3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf` |
 | **Magic PDF** | v1.0.0 | Windows 10/11 (64-bit) | [`magicpdf-latest.zip`](https://download.amsol.ca/magicpdf-latest.zip) | `60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a` |
 

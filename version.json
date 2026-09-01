@@ -8,7 +8,7 @@
       "windows": "https://download.amsol.ca/magicwatch-latest.zip",
       "published": "2026-09-01",
       "size": 47295893,
-      "sha256": "f2af45e8b6bda26cfade9417034328886667054d23b8d0c79576f312ee9dfeea",
+      "sha256": "8c6fde0bc91b95ff37c115a98444b5cb58c78b3a43981c2352e8057f483239a2",
       "description": "Pro-grade Desktop Gadget Watch with Visual Interval Alerts"
     },
     "magicmidi": {
@@ -17,7 +17,7 @@
       "windows": "https://download.amsol.ca/magicmidi-latest.zip",
       "published": "2026-09-01",
       "size": 92722577,
-      "sha256": "c8568c0c3ff5786435851a1b7a0369f8ddc44d964a01e1c27ddc9e3bc77b8dfb",
+      "sha256": "2e5f35df4bf3eaf0cd43564116b35bd949a7989099230c3a3670f8afb0faa441",
       "description": "Desktop MIDI Studio, AI Audio-to-MIDI & Falling-Notes Visualizer"
     },
     "magicvideo": {
