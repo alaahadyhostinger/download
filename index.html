@@ -87,14 +87,27 @@
         <ul class="btn-row">
           <li>
             <a class="btn is-primary"
+               href="https://download.amsol.ca/magicpdf-setup.exe"
+               data-asset="magicpdf-setup.exe">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
+              </svg>
+              <span class="btn-text">
+                <span class="btn-label">Windows Setup (Installer)</span>
+                <span class="btn-meta" data-role="meta">Installs to your PC &middot; Start Menu shortcut &middot; uninstaller</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="btn"
                href="https://download.amsol.ca/magicpdf-latest.zip"
                data-asset="magicpdf-portable.zip">
               <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
               </svg>
               <span class="btn-text">
-                <span class="btn-label">Download MagicPDF for Windows</span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; ZIP, no installer</span>
+                <span class="btn-label">Windows Portable Version</span>
+                <span class="btn-meta" data-role="meta">ZIP &middot; nothing installed &middot; runs from a USB stick</span>
               </span>
             </a>
           </li>
@@ -103,11 +116,16 @@
         <details class="notes">
           <summary>Installation notes</summary>
           <div class="notes-body">
-            <p><strong>Windows.</strong> Unzip the download anywhere and run
-            <code>MagicPDF.exe</code>. There is no installer and nothing is added to your
-            system &mdash; it will run from a USB stick.</p>
-            <p>The download is a ZIP because browsers and antivirus often block a bare
-            <code>.exe</code>. The program inside is identical.</p>
+            <p><strong>Which one?</strong> Both contain the same program. The
+            <strong>installer</strong> puts Magic PDF in your Start Menu and adds an entry to
+            Add or remove programs, so it updates and uninstalls like any other app. The
+            <strong>portable</strong> ZIP installs nothing at all.</p>
+            <p><strong>Setup (Installer).</strong> Run it and follow the prompts. It installs
+            for your user account only, so Windows will not ask for administrator rights.</p>
+            <p><strong>Portable.</strong> Unzip anywhere and run <code>MagicPDF.exe</code>.
+            Nothing is written outside the folder except your own preferences, so it will
+            run from a USB stick. Useful too when a browser or antivirus blocks a bare
+            <code>.exe</code>.</p>
             <p><strong>macOS.</strong> Not currently available.</p>
           </div>
         </details>
