@@ -1,6 +1,10 @@
-# Installers and build output
+# Build directories
 dist/
+build/
+*.pyc
+__pycache__/
+
+# Allow distribution zip packages in repository
 *.exe
 *.dmg
-*.msi
-# We allow distribution zip archives (.zip) in repo so they are packaged into the Docker container
+!*.zip

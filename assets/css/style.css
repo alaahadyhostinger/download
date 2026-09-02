@@ -584,3 +584,48 @@ pre code { padding: 0; background: none; border: 0; }
   * { transition: none !important; animation: none !important; }
   .btn:hover { transform: none; }
 }
+
+.btn-label-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.14);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.btn.is-primary .badge-tag {
+  background: rgba(255, 255, 255, 0.22);
+  color: var(--accent-on);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.badge-tag.is-portable {
+  background: rgba(148, 163, 184, 0.15);
+  color: var(--text-muted);
+  border-color: var(--border-strong);
+}
+
+.btn.is-secondary {
+  color: var(--text);
+  background: var(--surface-alt);
+  border-color: var(--border-strong);
+}
+
+.btn.is-secondary:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text);
+}

@@ -1,30 +1,48 @@
 {
   "portal": "download.amsol.ca",
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "products": {
     "magicwatch": {
       "name": "Magic-Watch",
       "version": "1.2.0",
-      "windows": "https://download.amsol.ca/magicwatch-latest.zip",
-      "published": "2026-09-01",
-      "size": 47294704,
-      "sha256": "827c2da635eaf4814711c84dbce49048d0755d567803c00f56672b24eb41efa5",
+      "setup": {
+        "url": "https://download.amsol.ca/magicwatch-setup-latest.zip",
+        "filename": "magicwatch-setup-latest.zip",
+        "size": 47302525,
+        "sha256": "d79ecf49787b859dcb69efad318e6e8d3d77c116adef62424aa174631843bdf8"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magicwatch-latest.zip",
+        "filename": "magicwatch-latest.zip",
+        "size": 47294425,
+        "sha256": "dfda22018886c9e5892346d7d9402deccebffc5209d748ef529491d1a4434a24"
+      },
+      "published": "2026-09-02",
       "description": "Pro-grade Desktop Gadget Watch with Visual Interval Alerts"
     },
     "magicmidi": {
       "name": "MagicMidi",
       "version": "1.2.0",
-      "windows": "https://download.amsol.ca/magicmidi-latest.zip",
-      "published": "2026-09-01",
-      "size": 92722577,
-      "sha256": "6616777d386a83fef9157d2d91e095c5e802f51174ffb9af3e0c62918fb0bbbb",
+      "setup": {
+        "url": "https://download.amsol.ca/magicmidi-setup-latest.zip",
+        "filename": "magicmidi-setup-latest.zip",
+        "size": 92730549,
+        "sha256": "a7db59d58670c1f3f54e0e4910ed2fe0713b718bb5c9d6a6767677bcae5d418c"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magicmidi-latest.zip",
+        "filename": "magicmidi-latest.zip",
+        "size": 92722444,
+        "sha256": "b98e3eac4a074e02450dc9d09bb8ce74478a055a4faff0c1e8f0679955432bb9"
+      },
+      "published": "2026-09-02",
       "description": "Desktop MIDI Studio, AI Audio-to-MIDI & Falling-Notes Visualizer"
     },
     "magicvideo": {
       "name": "Magic Video",
       "version": "1.2.0",
       "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip",
-      "published": "2026-09-01",
+      "published": "2026-09-02",
       "size": 158419766,
       "sha256": "3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf",
       "description": "Convert, trim, join and edit video & AI PureVoice audio."
@@ -33,7 +51,7 @@
       "name": "Magic PDF",
       "version": "1.0.0",
       "windows": "https://download.amsol.ca/magicpdf-latest.zip",
-      "published": "2026-09-01",
+      "published": "2026-09-02",
       "size": 40183020,
       "sha256": "60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a",
       "description": "Split, merge and reorganise PDF documents."

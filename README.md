@@ -4,51 +4,16 @@ A collection of free, secure Windows tools for productivity and media management
 
 > **Security & Code Signing:** This project uses [SignPath Foundation](https://signpath.org/) for secure code signing.
 
-## Featured Applications
+## Featured Applications & Downloads
 
-| Application | Version | OS | Download | SHA-256 Checksum |
+| Application | Option / Flavor | OS | Download Package | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **Magic-Watch** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `827c2da635eaf4814711c84dbce49048d0755d567803c00f56672b24eb41efa5` |
-| **MagicMidi** | **v1.2.0** | Windows 10/11 (64-bit) | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `6616777d386a83fef9157d2d91e095c5e802f51174ffb9af3e0c62918fb0bbbb` |
-| **Magic Video** | v1.2.0 | Windows 10/11 (64-bit) | [`magicvideo-portable.zip`](https://github.com/alaahadyhostinger/magicvideo/releases/latest) | `3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf` |
-| **Magic PDF** | v1.0.0 | Windows 10/11 (64-bit) | [`magicpdf-latest.zip`](https://download.amsol.ca/magicpdf-latest.zip) | `60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a` |
-
-## Repository Architecture
-
-```
-.
-├── index.html            # Public download landing page with dark/light themes & OS detection
-├── privacy.html          # Comprehensive Privacy Policy & open-source declaration
-├── 404.html              # Custom branded 404 error page
-├── docker-compose.yml    # Coolify production deployment specification
-├── Dockerfile            # Nginx 1.29-alpine serving static assets & zip bundles
-├── nginx.conf            # High-performance routing, compression, security headers, /healthz
-├── version.json          # Multi-product structured version and release registry
-├── robots.txt            # Search engine crawl directives
-├── sitemap.xml           # Search engine sitemap
-├── assets/
-│   ├── css/style.css     # AMS corporate theme, policy typography & responsive grid styling
-│   ├── js/main.js        # Progressive enhancement (OS detection, theme toggling, release hydration)
-│   └── img/              # Logos and application icons (MagicPDF, MagicVideo, MagicWatch, MagicMidi)
-├── magicwatch-latest.zip # Standalone portable distribution package for Magic-Watch v1.2.0
-└── magicmidi-latest.zip  # Standalone portable distribution package for MagicMidi v1.2.0
-```
-
-## Coolify & Caddy Server Deployment
-
-This repository is connected directly to Coolify:
-- **Build Pack**: Docker Compose (`/docker-compose.yml`)
-- **Domain**: `https://download.amsol.ca`
-- **Port**: Exposed on port 80 to Coolify proxy network (Caddy handles TLS certificates).
-- **Auto-Deployment**: Pushing to the `main` branch automatically triggers a container rebuild and redeploys the latest website and binaries.
-
-## Verification
-
-To verify download integrity in PowerShell:
-```powershell
-Get-FileHash .\magicwatch-latest.zip -Algorithm SHA256
-Get-FileHash .\magicmidi-latest.zip -Algorithm SHA256
-```
+| **Magic-Watch** | **Setup (Installer)** | Windows 10/11 | [`magicwatch-setup-latest.zip`](https://download.amsol.ca/magicwatch-setup-latest.zip) | `d79ecf49787b859dcb69efad318e6e8d3d77c116adef62424aa174631843bdf8` |
+| **Magic-Watch** | **Portable Version** | Windows 10/11 | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) | `dfda22018886c9e5892346d7d9402deccebffc5209d748ef529491d1a4434a24` |
+| **MagicMidi** | **Setup (Installer)** | Windows 10/11 | [`magicmidi-setup-latest.zip`](https://download.amsol.ca/magicmidi-setup-latest.zip) | `a7db59d58670c1f3f54e0e4910ed2fe0713b718bb5c9d6a6767677bcae5d418c` |
+| **MagicMidi** | **Portable Version** | Windows 10/11 | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) | `b98e3eac4a074e02450dc9d09bb8ce74478a055a4faff0c1e8f0679955432bb9` |
+| **Magic Video** | Portable | Windows 10/11 | [`magicvideo-portable.zip`](https://github.com/alaahadyhostinger/magicvideo/releases/latest) | `3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf` |
+| **Magic PDF** | Portable | Windows 10/11 | [`magicpdf-latest.zip`](https://download.amsol.ca/magicpdf-latest.zip) | `60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a` |
 
 ---
 Official Publisher: **Advanced Management Solutions (AMSOL)**  
