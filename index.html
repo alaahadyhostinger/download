@@ -211,31 +211,53 @@
         </header>
 
         <ul class="btn-row">
-          <li>
-            <a class="btn is-primary"
-               href="https://download.amsol.ca/magicpdf-latest.zip"
-               data-asset="magicpdf-portable.zip">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
-              </svg>
-              <span class="btn-text">
-                <span class="btn-label">Download MagicPDF for Windows</span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; ZIP, no installer</span>
-              </span>
-            </a>
-          </li>
-        </ul>
+            <!-- Option 1: Setup Installer -->
+            <li>
+              <a class="btn is-primary"
+                 href="https://download.amsol.ca/magicpdf-setup-latest.zip"
+                 data-asset="magicpdf-setup.zip"
+                 data-flavor="setup">
+                <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
+                </svg>
+                <span class="btn-text">
+                  <span class="btn-label-row">
+                    <span class="btn-label">Download MagicPDF Setup (Installer)</span>
+                    <span class="badge-tag">Recommended</span>
+                  </span>
+                  <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup wizard with Start Menu shortcut &amp; uninstaller</span>
+                </span>
+              </a>
+            </li>
+
+            <!-- Option 2: Portable Version -->
+            <li>
+              <a class="btn is-secondary"
+                 href="https://download.amsol.ca/magicpdf-latest.zip"
+                 data-asset="magicpdf-portable.zip"
+                 data-flavor="portable">
+                <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                </svg>
+                <span class="btn-text">
+                  <span class="btn-label-row">
+                    <span class="btn-label">Download MagicPDF Portable</span>
+                    <span class="badge-tag is-portable">Portable ZIP</span>
+                  </span>
+                  <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP &middot; No install required</span>
+                </span>
+              </a>
+            </li>
+          </ul>
 
         <details class="notes">
           <summary>Installation notes</summary>
           <div class="notes-body">
-            <p><strong>Windows.</strong> Unzip the download anywhere and run
-            <code>MagicPDF.exe</code>. There is no installer and nothing is added to your
-            system &mdash; it will run from a USB stick.</p>
-            <p>The download is a ZIP because browsers and antivirus often block a bare
-            <code>.exe</code>. The program inside is identical.</p>
-            <p><strong>macOS.</strong> Not currently available.</p>
-          </div>
+              <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Recommended for everyday use. Unzip and run the setup wizard. It installs for your user account only, so Windows never asks for administrator rights, and it adds a Start Menu shortcut, an optional desktop icon, and an entry in Add or remove programs so it uninstalls cleanly.</p>
+              <p><strong>Option 2 &mdash; Portable Version:</strong> Unzip <code>magicpdf-latest.zip</code> anywhere (including a USB flash drive) and run <code>MagicPDF.exe</code> directly. Nothing is installed and nothing is written outside the folder except your own preferences.</p>
+              <p>Both downloads contain the same program &mdash; the only difference is whether it is installed. Each is a ZIP because browsers and antivirus routinely block a bare <code>.exe</code>.</p>
+              <p><strong>macOS.</strong> Not currently available.</p>
+            </div>
         </details>
       </article>
 
