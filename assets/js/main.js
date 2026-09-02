@@ -82,21 +82,44 @@
   var allButtons = document.querySelectorAll('[data-asset], [data-pending-asset]');
   var note = document.getElementById('platform-note');
 
-  if (os === 'windows' || os === 'mac') {
-    Array.prototype.forEach.call(allButtons, function (el) {
-      var isMatch = platformOf(el) === os;
-      // never promote a placeholder to the primary call-to-action
-      el.classList.toggle('is-primary', isMatch && !el.classList.contains('is-pending'));
+  function isRealMatch(el) {
+    // A placeholder is never the call to action, however well it matches.
+    return platformOf(el) === os && !el.classList.contains('is-pending');
+  }
+
+  // Driven by what the page actually offers rather than a hard-coded list of
+  // platforms, so removing the last build for one stops claiming it exists.
+  var anyMatch = Array.prototype.some.call(allButtons, isRealMatch);
+
+  if (anyMatch) {
+    Array.prototype.forEach.call(document.querySelectorAll('.card'), function (card) {
+      var matches = [];
+      Array.prototype.forEach.call(
+        card.querySelectorAll('[data-asset], [data-pending-asset]'),
+        function (el) {
+          el.classList.remove('is-primary');
+          if (isRealMatch(el)) matches.push(el);
+        }
+      );
+      // One card can offer several builds for the same platform — an installer
+      // and a portable ZIP. Highlighting both would make "recommended" mean
+      // nothing, so take the one marked data-recommended, else the first.
+      var pick = null;
+      for (var i = 0; i < matches.length && !pick; i++) {
+        if (matches[i].hasAttribute('data-recommended')) pick = matches[i];
+      }
+      if (!pick) pick = matches[0];
+      if (pick) pick.classList.add('is-primary');
     });
   } else {
-    // No desktop build matches — don't imply one does.
+    // Nothing here runs on the visitor's system — don't imply otherwise.
     Array.prototype.forEach.call(allButtons, function (el) {
       el.classList.remove('is-primary');
     });
     if (note) {
       note.textContent = os === 'ios' || os === 'android'
-        ? 'These are desktop applications. Open this page on a Windows PC or a Mac to install them.'
-        : 'We don’t publish a build for your operating system yet. The files below are for Windows and macOS.';
+        ? 'These are desktop applications. Open this page on a Windows PC to download them.'
+        : 'These are Windows applications. We don’t publish a build for your operating system yet.';
       note.hidden = false;
     }
   }

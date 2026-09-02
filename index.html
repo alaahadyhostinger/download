@@ -157,41 +157,52 @@
 
         <ul class="btn-row">
           <li>
-            <a class="btn is-primary"
-               href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip"
-               data-asset="magicvideo-portable.zip">
+            <a class="btn is-primary" data-recommended
+               href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-setup.exe"
+               data-asset="magicvideo-setup.exe">
               <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
               </svg>
               <span class="btn-text">
-                <span class="btn-label">Download MagicVideo for Windows</span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; no installer</span>
+                <span class="btn-label">Windows Setup &mdash; Installer</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; installs with Start Menu shortcut</span>
               </span>
             </a>
           </li>
           <li>
-            <span class="btn is-pending"
-                  data-pending-asset="magicvideo-macos.dmg"
-                  data-pending-href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-macos.dmg"
-                  role="link" aria-disabled="true">
+            <a class="btn"
+               href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip"
+               data-asset="magicvideo-portable.zip">
               <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.8-3.5.8s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.8-2.2c.6-.9.9-1.4 1.3-2.4-2.4-.9-2.5-3.9-2.5-4Zm-2.3-7.5c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
+                <path d="M3 3h18v5H3V3Zm1.5 7h15v11h-15V10ZM10 12h4v2.5h-4V12Zm0 4h4v2.5h-4V16Z"/>
               </svg>
               <span class="btn-text">
-                <span class="btn-label">Download MagicVideo for macOS</span>
-                <span class="btn-meta">Coming soon</span>
+                <span class="btn-label">Windows Portable &mdash; ZIP, no install</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; unzip and run, no admin rights</span>
               </span>
-            </span>
+            </a>
           </li>
         </ul>
 
         <details class="notes">
           <summary>Installation notes</summary>
           <div class="notes-body">
-            <p><strong>Windows.</strong> There is nothing to install. Unzip
-            <code>magicvideo-portable.zip</code> anywhere you like &mdash; a USB stick is fine &mdash;
-            and double-click <code>MagicVideo.exe</code> inside it.</p>
-            <p><strong>macOS.</strong> In development.</p>
+            <p><strong>Which one?</strong> Both contain the same application. Pick
+            Setup if you want Magic Video installed like any other program; pick
+            Portable if you would rather not install anything, cannot use an
+            administrator account, or want to run it from a USB stick.</p>
+            <p><strong>Windows Setup.</strong> Run <code>magicvideo-setup.exe</code> and
+            follow the wizard. It installs for you only by default, so no administrator
+            password is needed, adds a Start Menu entry, and offers a desktop shortcut.
+            The wizard speaks the same six languages as the application. Remove it later
+            from <em>Apps &amp; features</em> as usual.</p>
+            <p><strong>Windows Portable.</strong> Unzip
+            <code>magicvideo-portable.zip</code> anywhere you like and double-click
+            <code>MagicVideo.exe</code> inside it. Nothing is written to Program Files or
+            the registry. Keep the folder together &mdash; the executable needs the files
+            beside it, ffmpeg included. To remove it, delete the folder.</p>
+            <p>Either way your settings and downloads live in your user profile, so you
+            can switch between the two without losing them.</p>
           </div>
         </details>
       </article>
@@ -295,7 +306,8 @@
           </thead>
           <tbody id="checksum-rows">
             <tr><td>magicpdf-latest.zip</td><td>~38 MB</td><td class="digest">60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a</td></tr>
-            <tr><td>magicvideo-latest.zip</td><td>~151 MB</td><td class="digest">3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf</td></tr>
+            <tr><td>magicvideo-latest.exe</td><td>107 MB</td><td class="digest">85c72adabbf16fbb6119d906a9ee82915901fe581216b7808abdc935651492b3</td></tr>
+            <tr><td>magicvideo-latest.zip</td><td>151 MB</td><td class="digest">5a5ec20b048bdb425d7c4e0fa09a374bffb17f0d380c061d2c0149287bd6102e</td></tr>
             <tr><td>magicwatch-latest.zip</td><td>~44 MB</td><td class="digest">827c2da635eaf4814711c84dbce49048d0755d567803c00f56672b24eb41efa5</td></tr>
             <tr><td>magicmidi-latest.zip</td><td>~88 MB</td><td class="digest">6616777d386a83fef9157d2d91e095c5e802f51174ffb9af3e0c62918fb0bbbb</td></tr>
           </tbody>
