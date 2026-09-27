@@ -1,6 +1,6 @@
 {
   "portal": "download.amsol.ca",
-  "updated": "2026-09-02",
+  "updated": "2026-09-27",
   "products": {
     "magicwatch": {
       "name": "Magic-Watch",
@@ -49,12 +49,12 @@
     },
     "magicpdf": {
       "name": "Magic PDF",
-      "version": "1.0.0",
+      "version": "1.5.0",
       "windows": "https://download.amsol.ca/magicpdf-latest.zip",
-      "published": "2026-09-02",
-      "size": 40183020,
-      "sha256": "60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a",
-      "description": "Split, merge and reorganise PDF documents."
+      "published": "2026-09-27",
+      "size": 133942199,
+      "sha256": "10d68a1815c1440f20e8dd2db2a866bbb5d479740a82fd909c8f8ebdc2df5e08",
+      "description": "Split, merge, reorganise, scan and read PDF documents aloud."
     }
   }
 }
