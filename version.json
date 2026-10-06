@@ -1,6 +1,6 @@
 {
   "portal": "download.amsol.ca",
-  "updated": "2026-09-27",
+  "updated": "2026-10-06",
   "products": {
     "magicwatch": {
       "name": "Magic-Watch",
@@ -8,53 +8,53 @@
       "setup": {
         "url": "https://download.amsol.ca/magicwatch-setup-latest.zip",
         "filename": "magicwatch-setup-latest.zip",
-        "size": 47302525,
-        "sha256": "d79ecf49787b859dcb69efad318e6e8d3d77c116adef62424aa174631843bdf8"
+        "size": 47302526,
+        "sha256": "b05fd2c7df263ec70f78812bbbdd399d5bcde695ccfe26eb8f0c3a438c58627e"
       },
       "portable": {
         "url": "https://download.amsol.ca/magicwatch-latest.zip",
         "filename": "magicwatch-latest.zip",
         "size": 47294425,
-        "sha256": "dfda22018886c9e5892346d7d9402deccebffc5209d748ef529491d1a4434a24"
+        "sha256": "6814f881f1502c2596d2d8b354d70e3956f3b0ab4036650f8cd6c1b6ba3e278b"
       },
-      "published": "2026-09-02",
+      "published": "2026-10-06",
       "description": "Pro-grade Desktop Gadget Watch with Visual Interval Alerts"
     },
     "magicmidi": {
       "name": "MagicMidi",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "setup": {
         "url": "https://download.amsol.ca/magicmidi-setup-latest.zip",
         "filename": "magicmidi-setup-latest.zip",
-        "size": 92730549,
-        "sha256": "a7db59d58670c1f3f54e0e4910ed2fe0713b718bb5c9d6a6767677bcae5d418c"
+        "size": 100100490,
+        "sha256": "939d34f1a4017b940260379e2e5b46b27a589c04fde7da9f2e38d0b3cf569dcc"
       },
       "portable": {
         "url": "https://download.amsol.ca/magicmidi-latest.zip",
         "filename": "magicmidi-latest.zip",
-        "size": 92722444,
-        "sha256": "b98e3eac4a074e02450dc9d09bb8ce74478a055a4faff0c1e8f0679955432bb9"
+        "size": 100092390,
+        "sha256": "ebb1610acf6ef24ab1dc3dd4792ba8b938b4f339f4ef61f008e7e572a35d27cc"
       },
-      "published": "2026-09-02",
-      "description": "Desktop MIDI Studio, AI Audio-to-MIDI & Falling-Notes Visualizer"
+      "published": "2026-10-06",
+      "description": "Desktop MIDI Studio, Western Modes & Arabic Maqam Circular Dial, AI Audio-to-MIDI & Falling Notes"
     },
     "magicvideo": {
       "name": "Magic Video",
       "version": "1.2.0",
       "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip",
-      "published": "2026-09-02",
+      "published": "2026-10-06",
       "size": 158419766,
       "sha256": "3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf",
       "description": "Convert, trim, join and edit video & AI PureVoice audio."
     },
     "magicpdf": {
       "name": "Magic PDF",
-      "version": "1.5.0",
+      "version": "1.0.0",
       "windows": "https://download.amsol.ca/magicpdf-latest.zip",
-      "published": "2026-09-27",
-      "size": 133942199,
-      "sha256": "10d68a1815c1440f20e8dd2db2a866bbb5d479740a82fd909c8f8ebdc2df5e08",
-      "description": "Split, merge, reorganise, scan and read PDF documents aloud."
+      "published": "2026-10-06",
+      "size": 40183020,
+      "sha256": "60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a",
+      "description": "Split, merge and reorganise PDF documents."
     }
   }
 }
