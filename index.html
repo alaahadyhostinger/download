@@ -203,38 +203,59 @@
           <img class="app-icon" src="assets/img/magicpdf-icon.png" alt="Magic PDF icon" width="1024" height="1024">
           <div class="card-title">
             <h2>Magic PDF</h2>
-            <p class="card-tagline">Split, merge and reorganise PDF documents.</p>
+            <p class="card-tagline">Split, merge, reorganise, scan, read aloud and unlock PDF documents.</p>
             <p class="version" data-role="version">
-              <span class="version-badge" data-role="version-badge">Version 1.0</span>
+              <span class="version-badge" data-role="version-badge">Version 1.6.0</span>
             </p>
           </div>
         </header>
 
         <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
           <li>
             <a class="btn is-primary"
-               href="https://download.amsol.ca/magicpdf-latest.zip"
-               data-asset="magicpdf-portable.zip">
+               href="https://download.amsol.ca/magicpdf-setup-latest.zip"
+               data-asset="magicpdf-setup.zip"
+               data-flavor="setup">
               <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
               </svg>
               <span class="btn-text">
-                <span class="btn-label">Download MagicPDF for Windows</span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; ZIP, no installer</span>
+                <span class="btn-label-row">
+                  <span class="btn-label">Download Magic PDF Setup (Installer)</span>
+                  <span class="badge-tag">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP with Start Menu &amp; Desktop shortcuts</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magicpdf-latest.zip"
+               data-asset="magicpdf-portable.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+              </svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label">Download Magic PDF Portable</span>
+                  <span class="badge-tag is-portable">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP &middot; No install required</span>
               </span>
             </a>
           </li>
         </ul>
 
         <details class="notes">
-          <summary>Installation notes</summary>
+          <summary>Installation notes &amp; Features</summary>
           <div class="notes-body">
-            <p><strong>Windows.</strong> Unzip the download anywhere and run
-            <code>MagicPDF.exe</code>. There is no installer and nothing is added to your
-            system &mdash; it will run from a USB stick.</p>
-            <p>The download is a ZIP because browsers and antivirus often block a bare
-            <code>.exe</code>. The program inside is identical.</p>
-            <p><strong>macOS.</strong> Not currently available.</p>
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Recommended for primary desktop use. Unzip <code>magicpdf-setup.zip</code>, run the setup wizard, and it installs for your user account only (no administrator prompt), with Start Menu and Desktop shortcuts and an entry in Add or remove programs.</p>
+            <p><strong>Option 2 &mdash; Portable Version:</strong> Unzip <code>magicpdf-latest.zip</code> anywhere (including USB flash drives) and run <code>MagicPDF.exe</code> directly with zero system modifications.</p>
+            <p><strong>Key Features:</strong> Split and merge PDFs; a visual page manager and magazine-style flip viewer; scan to PDF from WIA, SANE and network (eSCL) scanners with OpenCV clean-up; read documents aloud with per-language voices, adjustable speed and a reading view that highlights the text as it is read; and remove passwords from protected PDFs. Six interface languages (English, French, Spanish, Italian, German, Arabic) and three themes.</p>
           </div>
         </details>
       </article>
@@ -330,7 +351,8 @@
             <tr><td>magicwatch-latest.zip</td><td>Portable ZIP</td><td>~45 MB</td><td class="digest">6814f881f1502c2596d2d8b354d70e3956f3b0ab4036650f8cd6c1b6ba3e278b</td></tr>
             <tr><td>magicmidi-setup-latest.zip</td><td>Setup Installer ZIP</td><td>~96 MB</td><td class="digest">939d34f1a4017b940260379e2e5b46b27a589c04fde7da9f2e38d0b3cf569dcc</td></tr>
             <tr><td>magicmidi-latest.zip</td><td>Portable ZIP</td><td>~96 MB</td><td class="digest">ebb1610acf6ef24ab1dc3dd4792ba8b938b4f339f4ef61f008e7e572a35d27cc</td></tr>
-            <tr><td>magicpdf-latest.zip</td><td>Portable ZIP</td><td>~38 MB</td><td class="digest">60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a</td></tr>
+            <tr><td>magicpdf-setup-latest.zip</td><td>Setup Installer ZIP</td><td>~129 MB</td><td class="digest">f05c79301a7855e3f5ca71f5cd1843fb4434729ea6cd4fa32d1362eadb343ad9</td></tr>
+            <tr><td>magicpdf-latest.zip</td><td>Portable ZIP</td><td>~128 MB</td><td class="digest">a6f0dd7a9b356a5a76fd30c8a39f594b6409e91e82c66222a4169de56e657909</td></tr>
             <tr><td>magicvideo-latest.zip</td><td>Portable ZIP</td><td>~151 MB</td><td class="digest">3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf</td></tr>
           </tbody>
         </table>
