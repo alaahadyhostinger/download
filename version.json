@@ -49,12 +49,12 @@
     },
     "magicpdf": {
       "name": "Magic PDF",
-      "version": "1.6.1",
+      "version": "1.7.0",
       "windows": "https://download.amsol.ca/magicpdf-latest.zip",
       "published": "2026-10-22",
-      "size": 137669693,
-      "sha256": "4fffd270e6364494bc539a0d4b3d713a04288a12142d87e1f3f03db277dc38f1",
-      "description": "Split, merge, reorganise, scan, read aloud and unlock PDF documents."
+      "size": 137692141,
+      "sha256": "6b25fc2a57bdc568919ad24e33ef4a7b3a7e0a9889fab2260d5c666327263fc1",
+      "description": "Split, merge, scan, read aloud, unlock and recover passwords for PDFs."
     }
   }
 }
