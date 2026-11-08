@@ -1,60 +1,192 @@
 {
   "portal": "download.amsol.ca",
-  "updated": "2026-10-22",
+  "publisher": "Advanced Management Solutions (https://amsol.ca)",
+  "updated": "2026-11-08",
   "products": {
+    "magicnorton": {
+      "name": "Magic-Norton",
+      "version": "1.0.0",
+      "setup": {
+        "url": "https://download.amsol.ca/magicnorton-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicnorton-setup-latest.zip",
+        "filename": "magicnorton-setup-latest.zip",
+        "size": 84028065,
+        "sha256": "8f5df485081153f3a971c2c7b064180caa8268e3390c070368c158f68db4a827"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magicnorton-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicnorton-latest.zip",
+        "filename": "magicnorton-latest.zip",
+        "size": 83828831,
+        "sha256": "f21f46131fa0f5f5e96c7026d215c6851fd432b556eca49a8eb2f510742a84e1"
+      },
+      "published": "2026-11-08",
+      "description": "Advanced Dual-Pane Commander File Manager, SHA-256 Folder Compare, 4-Mode Sync & Batch Studio."
+    },
+    "magiclivecamera": {
+      "name": "Magic Live Camera",
+      "version": "1.0.0",
+      "setup": {
+        "url": "https://download.amsol.ca/magiclivecamera-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magiclivecamera-setup-latest.zip",
+        "filename": "magiclivecamera-setup-latest.zip",
+        "size": 213467668,
+        "sha256": "5e38a05dc1ee787e53c220ccc3a47285fb127e3cc3b64136f9b01494fcdc54cf"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magiclivecamera-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magiclivecamera-latest.zip",
+        "filename": "magiclivecamera-latest.zip",
+        "size": 213430415,
+        "sha256": "8937d3a7c6b670ff960e12f3774b1ff1e5bf2011db73866c24166a1cf8309241"
+      },
+      "published": "2026-11-08",
+      "description": "Ontario Multi-Camera Live Highway & Arterial Traffic Monitor with 1\u201316 Feed CCTV Video Wall."
+    },
+    "magicsudoku": {
+      "name": "Magic Sudoku",
+      "version": "1.0.0",
+      "setup": {
+        "url": "https://download.amsol.ca/magicsudoku-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicsudoku-setup-latest.zip",
+        "filename": "magicsudoku-setup-latest.zip",
+        "size": 220518718,
+        "sha256": "6f71e3b5542d9a84917ce1f5dc7844778f325af5fe4f409fdbff92cdc38cd172"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magicsudoku-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicsudoku-latest.zip",
+        "filename": "magicsudoku-latest.zip",
+        "size": 220429180,
+        "sha256": "7aba2d3a61b8751e4a1254da4023e4fcafe7b0369010280b7cb75d718d997115"
+      },
+      "published": "2026-11-08",
+      "description": "Cognitive Logic & Chromatic Psychology Puzzle Suite with 6 AMS Themes, 16 MBTI Palettes & Symbol Modes.",
+      "android": {
+        "url": "https://download.amsol.ca/magicsudoku-android-latest.apk",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicsudoku-android-latest.apk",
+        "filename": "magicsudoku-android-latest.apk",
+        "size": 7548480,
+        "sha256": "0dd136586fe7a8abcc0b9568a1ffaee5ab10c3438f76b4476f49edad1f2a6083"
+      }
+    },
+    "magicviewer": {
+      "name": "Magic Viewer",
+      "version": "1.0.0",
+      "setup": {
+        "url": "https://download.amsol.ca/magicviewer-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicviewer-setup-latest.zip",
+        "filename": "magicviewer-setup-latest.zip",
+        "size": 70053735,
+        "sha256": "45f6d47d3f2e7df7dbfa911d19d17c3bba49865b7cba579cdfe1e629ae5186f4"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magicviewer-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicviewer-latest.zip",
+        "filename": "magicviewer-latest.zip",
+        "size": 69961558,
+        "sha256": "1e58ad5ca8dc8e4e0d20b091319544fef4558eec7a540eeeb8cbc4e09e5b6f19"
+      },
+      "published": "2026-11-08",
+      "description": "Universal CAD, CNC G-Code Toolpath, Vector & Document Inspection Studio."
+    },
+    "magiccarve": {
+      "name": "Magic Carve",
+      "version": "1.0.0",
+      "setup": {
+        "url": "https://download.amsol.ca/magiccarve-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magiccarve-setup-latest.zip",
+        "filename": "magiccarve-setup-latest.zip",
+        "size": 116219633,
+        "sha256": "d7145a487308ec565ec3c104b0ff9bec8924d06c3e1d53fd3060c216254bcddd"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magiccarve-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magiccarve-latest.zip",
+        "filename": "magiccarve-latest.zip",
+        "size": 116038079,
+        "sha256": "aaf7a59bdd7d293f17e862a2dd31ff3778c2502408269bdbcee73067d5752f1e"
+      },
+      "published": "2026-11-08",
+      "description": "WoodArt CAM Studio \u2014 Professional CAD/CAM Software for Woodworking, Laser Cutting & CNC Routers."
+    },
+    "magicstat": {
+      "name": "Magic Stat",
+      "version": "1.0.0",
+      "setup": {
+        "url": "https://download.amsol.ca/magicstat-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicstat-setup-latest.zip",
+        "filename": "magicstat-setup-latest.zip",
+        "size": 118973653,
+        "sha256": "a8ab98da8c0e013ea05399dcb5ad0421cfff3b5f0ec1f4ae034bd207f54570d5"
+      },
+      "portable": {
+        "url": "https://download.amsol.ca/magicstat-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicstat-latest.zip",
+        "filename": "magicstat-latest.zip",
+        "size": 118939596,
+        "sha256": "75504c4a13e3356512a23425ffdc2c2202153d816cec2d747360d47bdf7ff588"
+      },
+      "published": "2026-11-08",
+      "description": "Desktop Statistical Analysis Studio, Biometrics, Survival Analysis & APA Research Lab."
+    },
     "magicwatch": {
       "name": "Magic-Watch",
       "version": "1.2.0",
       "setup": {
         "url": "https://download.amsol.ca/magicwatch-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicwatch-setup-latest.zip",
         "filename": "magicwatch-setup-latest.zip",
         "size": 47302526,
         "sha256": "b05fd2c7df263ec70f78812bbbdd399d5bcde695ccfe26eb8f0c3a438c58627e"
       },
       "portable": {
         "url": "https://download.amsol.ca/magicwatch-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicwatch-latest.zip",
         "filename": "magicwatch-latest.zip",
         "size": 47294425,
         "sha256": "6814f881f1502c2596d2d8b354d70e3956f3b0ab4036650f8cd6c1b6ba3e278b"
       },
-      "published": "2026-10-06",
-      "description": "Pro-grade Desktop Gadget Watch with Visual Interval Alerts"
+      "published": "2026-11-08",
+      "description": "Pro-grade Desktop Gadget Watch with Luxury Visual Alerts & Theme Studio."
     },
     "magicmidi": {
       "name": "MagicMidi",
       "version": "1.3.0",
       "setup": {
         "url": "https://download.amsol.ca/magicmidi-setup-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicmidi-setup-latest.zip",
         "filename": "magicmidi-setup-latest.zip",
         "size": 100100490,
         "sha256": "939d34f1a4017b940260379e2e5b46b27a589c04fde7da9f2e38d0b3cf569dcc"
       },
       "portable": {
         "url": "https://download.amsol.ca/magicmidi-latest.zip",
+        "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magicmidi-latest.zip",
         "filename": "magicmidi-latest.zip",
         "size": 100092390,
         "sha256": "ebb1610acf6ef24ab1dc3dd4792ba8b938b4f339f4ef61f008e7e572a35d27cc"
       },
-      "published": "2026-10-06",
-      "description": "Desktop MIDI Studio, Western Modes & Arabic Maqam Circular Dial, AI Audio-to-MIDI & Falling Notes"
+      "published": "2026-11-08",
+      "description": "Desktop MIDI Studio, Western Modes & Arabic Maqamat, 360\u00b0 Circular Dial & Lissajous Harmonics."
+    },
+    "magicpdf": {
+      "name": "Magic PDF",
+      "version": "1.5.0",
+      "windows": "https://download.amsol.ca/magicpdf-latest.zip",
+      "published": "2026-11-08",
+      "size": 40183020,
+      "sha256": "60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a",
+      "description": "Split, merge and reorganise PDF documents."
     },
     "magicvideo": {
       "name": "Magic Video",
       "version": "1.2.0",
       "windows": "https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip",
-      "published": "2026-10-06",
+      "published": "2026-11-08",
       "size": 158419766,
       "sha256": "3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf",
       "description": "Convert, trim, join and edit video & AI PureVoice audio."
-    },
-    "magicpdf": {
-      "name": "Magic PDF",
-      "version": "1.7.0",
-      "windows": "https://download.amsol.ca/magicpdf-latest.zip",
-      "published": "2026-10-22",
-      "size": 137692141,
-      "sha256": "6b25fc2a57bdc568919ad24e33ef4a7b3a7e0a9889fab2260d5c666327263fc1",
-      "description": "Split, merge, scan, read aloud, unlock and recover passwords for PDFs."
     }
   }
 }

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="auto">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Downloads — Advanced Management Solutions</title>
-<meta name="description" content="Official downloads for Advanced Management Solutions desktop tools: Magic-Watch (desktop gadget chronometer with visual alerts), MagicMidi (desktop MIDI workstation), Magic PDF and Magic Video.">
+<title>Downloads — Advanced Management Solutions (AMSOL)</title>
+<meta name="description" content="Official downloads for Advanced Management Solutions desktop & mobile applications: Magic-Norton, Magic Live Camera, Magic Sudoku, Magic Viewer, Magic Carve, Magic Stat, Magic-Watch, MagicMidi, Magic PDF, and Magic Video.">
 <link rel="canonical" href="https://download.amsol.ca/">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Downloads — Advanced Management Solutions">
-<meta property="og:description" content="Official downloads for Magic-Watch, MagicMidi, Magic PDF and Magic Video desktop applications. Fast, secure, and zero telemetry.">
+<meta property="og:description" content="Official downloads for Magic-Norton, Magic Live Camera, Magic Sudoku, Magic Viewer, Magic Carve, Magic Stat, Magic-Watch, MagicMidi, Magic PDF and Magic Video. Fast, secure, and zero telemetry.">
 <meta property="og:url" content="https://download.amsol.ca/">
 <meta property="og:image" content="https://download.amsol.ca/assets/img/magicwatch-icon.png">
 <meta name="twitter:card" content="summary">
@@ -33,23 +33,41 @@
     </a>
 
     <nav class="header-links" aria-label="Primary navigation">
-      <a href="https://download.amsol.ca/" class="header-link active">Downloads</a>
-      <a href="privacy.html" class="header-link">Privacy Policy</a>
-      <a href="https://amsol.ca" class="header-link">AMSOL.ca</a>
+      <a href="https://download.amsol.ca/" class="header-link active" data-i18n="navDownloads">Downloads</a>
+      <a href="privacy.html" class="header-link" data-i18n="navPrivacy">Privacy Policy</a>
+      <a href="https://amsol.ca" class="header-link" target="_blank" rel="noopener">AMSOL.ca</a>
     </nav>
 
-    <button id="theme-toggle" class="theme-toggle" type="button"
-            aria-label="Switch between light and dark theme">
-      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <circle cx="12" cy="12" r="4.2"/>
-        <g stroke-linecap="round">
-          <path d="M12 2.6v2.4M12 19v2.4M2.6 12h2.4M19 12h2.4M5.4 5.4l1.7 1.7M16.9 16.9l1.7 1.7M18.6 5.4l-1.7 1.7M7.1 16.9l-1.7 1.7"/>
-        </g>
-      </svg>
-      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <path d="M20 14.2A8.2 8.2 0 1 1 9.8 4a6.6 6.6 0 0 0 10.2 10.2Z"/>
-      </svg>
-    </button>
+    <div class="portal-controls" role="group" aria-label="Theme and Language Preferences">
+      <!-- 6 Color Themes Selector -->
+      <div class="theme-Control-group">
+        <div class="theme-dots" role="radiogroup" aria-label="6 Color Themes">
+          <button type="button" class="theme-dot" data-set-theme="dark" title="1. Obsidian Dark" style="background:#38bdf8;"></button>
+          <button type="button" class="theme-dot" data-set-theme="light" title="2. Crisp Daylight" style="background:#2563eb;"></button>
+          <button type="button" class="theme-dot" data-set-theme="classic_commander" title="3. Classic Commander" style="background:#00e5ff;"></button>
+          <button type="button" class="theme-dot" data-set-theme="emerald_matrix" title="4. Emerald Matrix" style="background:#10b981;"></button>
+          <button type="button" class="theme-dot" data-set-theme="sunset_amber" title="5. Sunset Amber" style="background:#f59e0b;"></button>
+          <button type="button" class="theme-dot" data-set-theme="royal_amethyst" title="6. Royal Amethyst" style="background:#c084fc;"></button>
+        </div>
+        <select id="theme-select" class="portal-select" aria-label="Select Color Theme">
+          <option value="dark">🎨 Obsidian Dark</option>
+          <option value="light">☀️ Crisp Daylight</option>
+          <option value="classic_commander">💻 Classic Commander</option>
+          <option value="emerald_matrix">🟢 Emerald Matrix</option>
+          <option value="sunset_amber">🟠 Sunset Amber</option>
+          <option value="royal_amethyst">🟣 Royal Amethyst</option>
+        </select>
+      </div>
+
+      <!-- 5 Languages Selector -->
+      <select id="lang-select" class="portal-select" aria-label="Select Language">
+        <option value="en">🌐 English</option>
+        <option value="fr">🌐 Français</option>
+        <option value="ar">🌐 العربية</option>
+        <option value="es">🌐 Español</option>
+        <option value="de">🌐 Deutsch</option>
+      </select>
+    </div>
   </div>
 </header>
 
@@ -57,13 +75,13 @@
   <div class="wrap">
 
     <section class="hero">
-      <h1>Downloads</h1>
-      <p class="hero-sub">
-        A collection of free, secure Windows tools for productivity and media management.
+      <h1 data-i18n="heroTitle">Official Software Downloads</h1>
+      <p class="hero-sub" data-i18n="heroSub">
+        Professional Windows &amp; Mobile software suites engineered by Advanced Management Solutions (AMSOL) &mdash; 100% local execution, fast, and zero telemetry.
       </p>
       <div class="security-badge">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
-        <span>This project uses <a href="https://signpath.org/" target="_blank" rel="noopener">SignPath Foundation</a> for secure code signing.</span>
+        <span><span data-i18n="signpathText">This project uses</span> <a href="https://signpath.org/" target="_blank" rel="noopener">SignPath Foundation</a> <span data-i18n="signpathSuffix">for secure code signing.</span></span>
       </div>
     </section>
 
@@ -71,13 +89,389 @@
 
     <div class="grid">
 
+      <!-- ================= Magic-Norton ================= -->
+      <article class="card" data-repo="magicnorton">
+        <header class="card-head">
+          <img class="app-icon" src="assets/img/magicnorton-icon.png" alt="Magic-Norton icon" width="256" height="256">
+          <div class="card-title">
+            <h2>Magic-Norton</h2>
+            <p class="card-tagline">Advanced Dual-Pane Commander File Manager, SHA-256 Folder Compare, 4-Mode Sync & Batch Studio.</p>
+            <p class="version" data-role="version">
+              <span class="version-badge" data-role="version-badge">Version 1.0.0</span>
+            </p>
+          </div>
+        </header>
+
+        <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
+          <li>
+            <a class="btn is-primary"
+               href="https://download.amsol.ca/magicnorton-setup-latest.zip"
+               data-asset="magicnorton-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic-Norton</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~80.1 MB)</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magicnorton-latest.zip"
+               data-asset="magicnorton-latest.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic-Norton</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~79.9 MB) &middot; No install required</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <details class="notes">
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
+          <div class="notes-body">
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magicnorton-setup-latest.zip</code> and run <code>Magic-Norton-Setup-1.0.0.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magicnorton-latest.zip</code> anywhere (including a USB flash drive) and run <code>Magic-Norton.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> Independent dual-pane file commander inspired by Norton Commander; Quick, Recursive & SHA-256 Content Folder Comparison with color-coded status; 4-Mode Folder Synchronization (Left-to-Right, Right-to-Left, Bidirectional, Mirror) with preview & audit report; Streaming file copy/move with real-time speed, ETA, Pause/Resume/Cancel, and smart duplicate conflict resolution; Wildcard Search (*.pdf, Report*, *2026*), Duplicate File Finder, Multi-File Batch Rename, Disk Space Analyzer, built-in ZIP Archiver, F3 File Previewer & F4 Text/Code Editor, Safe Recovery Vault Undo, 6 Color Themes, and 5 Languages (EN, FR, AR, ES, DE).</p>
+          </div>
+        </details>
+      </article>
+
+      <!-- ================= Magic Live Camera ================= -->
+      <article class="card" data-repo="magiclivecamera">
+        <header class="card-head">
+          <img class="app-icon" src="assets/img/magiclivecamera-icon.png" alt="Magic Live Camera icon" width="256" height="256">
+          <div class="card-title">
+            <h2>Magic Live Camera</h2>
+            <p class="card-tagline">Ontario Multi-Camera Live Highway & Arterial Traffic Monitor with 1–16 Feed CCTV Video Wall.</p>
+            <p class="version" data-role="version">
+              <span class="version-badge" data-role="version-badge">Version 1.0.0</span>
+            </p>
+          </div>
+        </header>
+
+        <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
+          <li>
+            <a class="btn is-primary"
+               href="https://download.amsol.ca/magiclivecamera-setup-latest.zip"
+               data-asset="magiclivecamera-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic Live Camera</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~204 MB)</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magiclivecamera-latest.zip"
+               data-asset="magiclivecamera-latest.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic Live Camera</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~204 MB) &middot; No install required</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <details class="notes">
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
+          <div class="notes-body">
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magiclivecamera-setup-latest.zip</code> and run <code>Magic-Live-Camera-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magiclivecamera-latest.zip</code> anywhere (including a USB flash drive) and run <code>Magic-Live-Camera.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> Real-time monitoring across London (TIMMS), Toronto (336 RESCU arterial & expressway cameras), and Ontario 511 Ministry of Transportation highways (Hwy 401, Hwy 402, Hwy 400, Gardiner Expressway, DVP); flexible CCTV video wall layouts (1, 2, 4, 6, 9, and 16 simultaneous feeds); interactive dark Leaflet map with geolocated camera pins and 1-click Wall assignment; automated camera rotation timer (10s–60s), custom commute presets, and borderless F11 control-room fullscreen.</p>
+          </div>
+        </details>
+      </article>
+
+      <!-- ================= Magic Sudoku ================= -->
+      <article class="card" data-repo="magicsudoku">
+        <header class="card-head">
+          <img class="app-icon" src="assets/img/magicsudoku-icon.png" alt="Magic Sudoku icon" width="256" height="256">
+          <div class="card-title">
+            <h2>Magic Sudoku</h2>
+            <p class="card-tagline">Cognitive Logic & Chromatic Psychology Puzzle Suite with 6 AMS Themes, 16 MBTI Palettes & Symbol Modes.</p>
+            <p class="version" data-role="version">
+              <span class="version-badge" data-role="version-badge">Version 1.0.0</span>
+            </p>
+          </div>
+        </header>
+
+        <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
+          <li>
+            <a class="btn is-primary"
+               href="https://download.amsol.ca/magicsudoku-setup-latest.zip"
+               data-asset="magicsudoku-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic Sudoku</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~210 MB)</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magicsudoku-latest.zip"
+               data-asset="magicsudoku-latest.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic Sudoku</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~210 MB) &middot; No install required</span>
+              </span>
+            </a>
+          </li>
+          <!-- Option 3: Android APK -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magicsudoku-android-latest.apk"
+               data-asset="magicsudoku-android-latest.apk"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67c-.19-.28-.54-.37-.83-.22-.3.16-.42.54-.26.85L6.4 9.48C3.3 11.25 1.28 14.44 1 18h22c-.28-3.56-2.3-6.75-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label">Download Magic Sudoku for Android (.APK)</span>
+                  <span class="badge-tag is-portable">Android APK</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Android 8.0+ &middot; Direct Installable APK (~7.2 MB)</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <details class="notes">
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
+          <div class="notes-body">
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magicsudoku-setup-latest.zip</code> and run <code>Magic-Sudoku-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magicsudoku-latest.zip</code> anywhere (including a USB flash drive) and run <code>Magic-Sudoku.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> Engineered around environmental psychology and cognitive ergonomics: 6 AMS Themes (Ocean, Midnight, Sunset, Graphite, Evergreen, Orchid), 16 MBTI Personality Color Palettes (Analysts, Diplomats, Sentinels, Explorers), 4 Visual Symbol Sets (Wild Animals, Avian Kingdom, Marine Life, Engineering Tools) plus 9 Color Orbs, multi-language interface (EN, FR, ES, DE, IT, AR with RTL), smart pencil annotations, cognitive difficulty tiers, and both Windows Desktop (.exe) and Android Mobile (.apk) editions.</p>
+          </div>
+        </details>
+      </article>
+
+      <!-- ================= Magic Viewer ================= -->
+      <article class="card" data-repo="magicviewer">
+        <header class="card-head">
+          <img class="app-icon" src="assets/img/magicviewer-icon.png" alt="Magic Viewer icon" width="256" height="256">
+          <div class="card-title">
+            <h2>Magic Viewer</h2>
+            <p class="card-tagline">Universal CAD, CNC G-Code Toolpath, Vector & Document Inspection Studio.</p>
+            <p class="version" data-role="version">
+              <span class="version-badge" data-role="version-badge">Version 1.0.0</span>
+            </p>
+          </div>
+        </header>
+
+        <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
+          <li>
+            <a class="btn is-primary"
+               href="https://download.amsol.ca/magicviewer-setup-latest.zip"
+               data-asset="magicviewer-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic Viewer</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~66.8 MB)</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magicviewer-latest.zip"
+               data-asset="magicviewer-latest.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic Viewer</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~66.7 MB) &middot; No install required</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <details class="notes">
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
+          <div class="notes-body">
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magicviewer-setup-latest.zip</code> and run <code>Magic-Viewer-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magicviewer-latest.zip</code> anywhere (including a USB flash drive) and run <code>Magic-Viewer.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> High-speed native multi-format engineering and document previewer: inspect AutoCAD DXF/DWG drawings with interactive layer toggling, visualize CNC G-code toolpaths (.nc, .gcode, .tap, .cnc), preview HPGL plotter vectors (.plt, .hpgl), SVG/EPS/AI artwork, multi-page PDFs, Word documents (.docx), Markdown, and high-resolution raster imagery with precision pan, zoom, and entity properties.</p>
+          </div>
+        </details>
+      </article>
+
+      <!-- ================= Magic Carve ================= -->
+      <article class="card" data-repo="magiccarve">
+        <header class="card-head">
+          <img class="app-icon" src="assets/img/magiccarve-icon.png" alt="Magic Carve icon" width="256" height="256">
+          <div class="card-title">
+            <h2>Magic Carve</h2>
+            <p class="card-tagline">WoodArt CAM Studio — Professional CAD/CAM Software for Woodworking, Laser Cutting & CNC Routers.</p>
+            <p class="version" data-role="version">
+              <span class="version-badge" data-role="version-badge">Version 1.0.0</span>
+            </p>
+          </div>
+        </header>
+
+        <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
+          <li>
+            <a class="btn is-primary"
+               href="https://download.amsol.ca/magiccarve-setup-latest.zip"
+               data-asset="magiccarve-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic Carve</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~111 MB)</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magiccarve-latest.zip"
+               data-asset="magiccarve-latest.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic Carve</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~111 MB) &middot; No install required</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <details class="notes">
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
+          <div class="notes-body">
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magiccarve-setup-latest.zip</code> and run <code>MagicCarve-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magiccarve-latest.zip</code> anywhere (including a USB flash drive) and run <code>MagicCarve.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> Complete raster-to-vector tracing (Manual Binary, Otsu Auto, Adaptive Gaussian thresholding) and curve smoothing; dedicated color-coded CAD layers (CUT_OUTER, CUT_INNER, ENGRAVE, TABS); automated CNC toolpath generation for Profile (Outside/Inside/On-Path), Pocket Clearing, and V-Carve engraving; exports multi-pass CNC G-Code (.nc/.gcode/.tap), AutoCAD DXF, LightBurn SVG, and PDF Setup Sheets.</p>
+          </div>
+        </details>
+      </article>
+
+      <!-- ================= Magic Stat ================= -->
+      <article class="card" data-repo="magicstat">
+        <header class="card-head">
+          <img class="app-icon" src="assets/img/magicstat-icon.png" alt="Magic Stat icon" width="256" height="256">
+          <div class="card-title">
+            <h2>Magic Stat</h2>
+            <p class="card-tagline">Desktop Statistical Analysis Studio, Biometrics, Survival Analysis & APA Research Lab.</p>
+            <p class="version" data-role="version">
+              <span class="version-badge" data-role="version-badge">Version 1.0.0</span>
+            </p>
+          </div>
+        </header>
+
+        <ul class="btn-row">
+          <!-- Option 1: Setup Installer -->
+          <li>
+            <a class="btn is-primary"
+               href="https://download.amsol.ca/magicstat-setup-latest.zip"
+               data-asset="magicstat-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic Stat</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~113 MB)</span>
+              </span>
+            </a>
+          </li>
+
+          <!-- Option 2: Portable Version -->
+          <li>
+            <a class="btn is-secondary"
+               href="https://download.amsol.ca/magicstat-latest.zip"
+               data-asset="magicstat-latest.zip"
+               data-flavor="portable">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span class="btn-text">
+                <span class="btn-label-row">
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic Stat</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
+                </span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~113 MB) &middot; No install required</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <details class="notes">
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
+          <div class="notes-body">
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magicstat-setup-latest.zip</code> and run <code>MagicStat-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magicstat-latest.zip</code> anywhere (including a USB flash drive) and run <code>MagicStat.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> 100% offline statistical workbench: spreadsheet data grid with missing-value imputation; Parametric tests (One-Sample, Independent Student/Welch t-Test with Cohen's d & Levene's test, Paired t-Test, One-Way ANOVA with Tukey HSD & Eta-squared); Nonparametric tests (Mann-Whitney U, Wilcoxon, Kruskal-Wallis, Friedman); Pearson/Spearman correlations, Chi-Square & Fisher's Exact, OLS Linear & Logistic Regression, Kaplan-Meier Survival Analysis with Log-Rank test, 2x2 Epidemiological Calculator (OR, RR, NNT), Cronbach's Alpha & Cohen's Kappa Psychometrics, Power Calculator, and APA-ready HTML/PDF reports.</p>
+          </div>
+        </details>
+      </article>
+
       <!-- ================= Magic-Watch ================= -->
       <article class="card" data-repo="magicwatch">
         <header class="card-head">
-          <img class="app-icon" src="assets/img/magicwatch-icon.png" alt="Magic Watch icon" width="1024" height="1024">
+          <img class="app-icon" src="assets/img/magicwatch-icon.png" alt="Magic-Watch icon" width="256" height="256">
           <div class="card-title">
             <h2>Magic-Watch</h2>
-            <p class="card-tagline">Pro-grade Desktop Gadget Watch with Luxury Visual Alerts &amp; Theme Studio.</p>
+            <p class="card-tagline">Pro-grade Desktop Gadget Watch with Luxury Visual Alerts & Theme Studio.</p>
             <p class="version" data-role="version">
               <span class="version-badge" data-role="version-badge">Version 1.2.0</span>
             </p>
@@ -89,17 +483,16 @@
           <li>
             <a class="btn is-primary"
                href="https://download.amsol.ca/magicwatch-setup-latest.zip"
-               data-asset="magicwatch-setup.zip"
-               data-flavor="setup">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
-              </svg>
+               data-asset="magicwatch-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
               <span class="btn-text">
                 <span class="btn-label-row">
-                  <span class="btn-label">Download Magic-Watch Setup (Installer)</span>
-                  <span class="badge-tag">Recommended</span>
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; Magic-Watch</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
                 </span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP with Start Menu &amp; Desktop shortcuts</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~45.1 MB)</span>
               </span>
             </a>
           </li>
@@ -108,28 +501,26 @@
           <li>
             <a class="btn is-secondary"
                href="https://download.amsol.ca/magicwatch-latest.zip"
-               data-asset="magicwatch-portable.zip"
+               data-asset="magicwatch-latest.zip"
                data-flavor="portable">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-              </svg>
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
               <span class="btn-text">
                 <span class="btn-label-row">
-                  <span class="btn-label">Download Magic-Watch Portable</span>
-                  <span class="badge-tag is-portable">Portable ZIP</span>
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; Magic-Watch</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
                 </span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP &middot; No install required</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~45.1 MB) &middot; No install required</span>
               </span>
             </a>
           </li>
         </ul>
 
         <details class="notes">
-          <summary>Installation notes &amp; Features</summary>
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
           <div class="notes-body">
-            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Recommended for primary desktop use. Runs an interactive setup wizard, creates Start Menu and Desktop shortcuts, and registers in Windows Settings for easy launch and update.</p>
-            <p><strong>Option 2 &mdash; Portable Version:</strong> Unzip <code>magicwatch-latest.zip</code> anywhere (including USB flash drives) and run <code>Magic-Watch.exe</code> directly with zero system modifications.</p>
-            <p><strong>Key Features:</strong> Automatic hourly mode/theme switcher (alternates Digital &amp; Analog faces or cycles themes every hour at :00), 4 selectable luxury interval visual alert animations (🌈 Aurora Perimeter Sweep, 💫 Particle Sparkle Fountain, ⚡ Ambient Breathing Halo, 🧬 Holographic Laser Scan) at :00 and :30, dual digital/analog watch faces (double-click to toggle), 12 studio themes (AMS Corporate Edition &amp; Chronometer), smooth 60 FPS sweep second hand, frameless transparent physics, position locking, always-on-top, scaling (80%-200%), and opacity adjustment.</p>
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magicwatch-setup-latest.zip</code> and run <code>Magic-Watch-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magicwatch-latest.zip</code> anywhere (including a USB flash drive) and run <code>Magic-Watch.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> Automatic hourly mode/theme switcher (alternates Digital & Analog faces or cycles themes every hour at :00), 4 selectable luxury interval visual alert animations (🌈 Aurora Perimeter Sweep, 💫 Particle Sparkle Fountain, ⚡ Ambient Breathing Halo, 🧬 Holographic Laser Scan) at :00 and :30, 12 studio themes (AMS Corporate Edition & Swiss Chronometer), smooth 60 FPS sweep second hand, and frameless transparency.</p>
           </div>
         </details>
       </article>
@@ -137,10 +528,10 @@
       <!-- ================= MagicMidi ================= -->
       <article class="card" data-repo="magicmidi">
         <header class="card-head">
-          <img class="app-icon" src="assets/img/magicmidi-icon.png" alt="MagicMidi icon" width="1024" height="1024">
+          <img class="app-icon" src="assets/img/magicmidi-icon.png" alt="MagicMidi icon" width="256" height="256">
           <div class="card-title">
             <h2>MagicMidi</h2>
-            <p class="card-tagline">Desktop MIDI Studio, Western Modes &amp; Arabic Maqamat, 360&deg; Circular Dial &amp; Lissajous Harmonics.</p>
+            <p class="card-tagline">Desktop MIDI Studio, Western Modes & Arabic Maqamat, 360° Circular Dial & Lissajous Harmonics.</p>
             <p class="version" data-role="version">
               <span class="version-badge" data-role="version-badge">Version 1.3.0</span>
             </p>
@@ -152,17 +543,16 @@
           <li>
             <a class="btn is-primary"
                href="https://download.amsol.ca/magicmidi-setup-latest.zip"
-               data-asset="magicmidi-setup.zip"
-               data-flavor="setup">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
-              </svg>
+               data-asset="magicmidi-setup-latest.zip"
+               data-flavor="setup"
+               data-recommended="true">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
               <span class="btn-text">
                 <span class="btn-label-row">
-                  <span class="btn-label">Download MagicMidi Setup (Installer)</span>
-                  <span class="badge-tag">Recommended</span>
+                  <span class="btn-label"><span data-i18n="downloadSetup">Download Setup (Installer)</span> &mdash; MagicMidi</span>
+                  <span class="badge-tag" data-i18n="recommended">Recommended</span>
                 </span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP with Start Menu &amp; Desktop shortcuts</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP (~95.5 MB)</span>
               </span>
             </a>
           </li>
@@ -171,28 +561,26 @@
           <li>
             <a class="btn is-secondary"
                href="https://download.amsol.ca/magicmidi-latest.zip"
-               data-asset="magicmidi-portable.zip"
+               data-asset="magicmidi-latest.zip"
                data-flavor="portable">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-              </svg>
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
               <span class="btn-text">
                 <span class="btn-label-row">
-                  <span class="btn-label">Download MagicMidi Portable</span>
-                  <span class="badge-tag is-portable">Portable ZIP</span>
+                  <span class="btn-label"><span data-i18n="downloadPortable">Download Portable</span> &mdash; MagicMidi</span>
+                  <span class="badge-tag is-portable" data-i18n="portableZip">Portable ZIP</span>
                 </span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP &middot; No install required</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP (~95.5 MB) &middot; No install required</span>
               </span>
             </a>
           </li>
         </ul>
 
         <details class="notes">
-          <summary>Installation notes &amp; Features</summary>
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
           <div class="notes-body">
-            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Recommended for studio workstations. Runs an interactive setup wizard, creates Start Menu and Desktop shortcuts, registers in Windows Settings, and sets up audio/SoundFont paths.</p>
-            <p><strong>Option 2 &mdash; Portable Version:</strong> Unzip <code>magicmidi-latest.zip</code> to any directory or USB drive and run <code>MagicMidi.exe</code> immediately without administrator rights.</p>
-            <p><strong>Key Features:</strong> Western Modes &amp; Arabic Maqam circular geometric dial (360&deg; 24-TET ring, Jins al-Asl &amp; Far', interval badges, Star of Fifths), 2D Lissajous curve harmonics lab, microtonal keyboard and grand staff notation, real-time falling-notes visualizer with particle effects, AI audio-to-MIDI transcription with Demucs stem isolation, 16-channel General MIDI instrument router, piano roll editor, chord analyzer, and sheet music PDF/SVG export.</p>
+            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Unzip <code>magicmidi-setup-latest.zip</code> and run <code>MagicMidi-Setup.exe</code>. Creates Desktop &amp; Start Menu shortcuts and registers in Windows Settings.</p>
+            <p><strong>Option 2 &mdash; Windows Portable:</strong> Unzip <code>magicmidi-latest.zip</code> anywhere (including a USB flash drive) and run <code>MagicMidi.exe</code> directly with zero installation.</p>
+            <p><strong>Key Features:</strong> Western Modes & Arabic Maqam circular geometric dial (360° 24-TET ring, Jins al-Asl & Far', interval badges, Star of Fifths), 2D Lissajous curve harmonics lab, microtonal keyboard and grand staff notation, real-time falling-notes visualizer with particle effects, AI audio-to-MIDI transcription with Demucs stem isolation, 16-channel General MIDI router, and sheet music PDF/SVG export.</p>
           </div>
         </details>
       </article>
@@ -200,62 +588,34 @@
       <!-- ================= Magic PDF ================= -->
       <article class="card" data-repo="magicpdf">
         <header class="card-head">
-          <img class="app-icon" src="assets/img/magicpdf-icon.png" alt="Magic PDF icon" width="1024" height="1024">
+          <img class="app-icon" src="assets/img/magicpdf-icon.png" alt="Magic PDF icon" width="256" height="256">
           <div class="card-title">
             <h2>Magic PDF</h2>
-            <p class="card-tagline">Split, merge, scan, read aloud, unlock and recover passwords for PDFs.</p>
+            <p class="card-tagline">Split, merge and reorganise PDF documents with zero cloud uploads.</p>
             <p class="version" data-role="version">
-              <span class="version-badge" data-role="version-badge">Version 1.7.0</span>
+              <span class="version-badge" data-role="version-badge">Version 1.5.0</span>
             </p>
           </div>
         </header>
 
         <ul class="btn-row">
-          <!-- Option 1: Setup Installer -->
           <li>
             <a class="btn is-primary"
-               href="https://download.amsol.ca/magicpdf-setup-latest.zip"
-               data-asset="magicpdf-setup.zip"
-               data-flavor="setup">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
-              </svg>
-              <span class="btn-text">
-                <span class="btn-label-row">
-                  <span class="btn-label">Download Magic PDF Setup (Installer)</span>
-                  <span class="badge-tag">Recommended</span>
-                </span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Setup Wizard ZIP with Start Menu &amp; Desktop shortcuts</span>
-              </span>
-            </a>
-          </li>
-
-          <!-- Option 2: Portable Version -->
-          <li>
-            <a class="btn is-secondary"
                href="https://download.amsol.ca/magicpdf-latest.zip"
-               data-asset="magicpdf-portable.zip"
-               data-flavor="portable">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-              </svg>
+               data-asset="magicpdf-portable.zip">
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
               <span class="btn-text">
-                <span class="btn-label-row">
-                  <span class="btn-label">Download Magic PDF Portable</span>
-                  <span class="badge-tag is-portable">Portable ZIP</span>
-                </span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Standalone ZIP &middot; No install required</span>
+                <span class="btn-label">Download MagicPDF for Windows</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; ZIP (~38 MB), no installer</span>
               </span>
             </a>
           </li>
         </ul>
 
         <details class="notes">
-          <summary>Installation notes &amp; Features</summary>
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
           <div class="notes-body">
-            <p><strong>Option 1 &mdash; Windows Setup (Installer):</strong> Recommended for primary desktop use. Unzip <code>magicpdf-setup.zip</code>, run the setup wizard, and it installs for your user account only (no administrator prompt), with Start Menu and Desktop shortcuts and an entry in Add or remove programs.</p>
-            <p><strong>Option 2 &mdash; Portable Version:</strong> Unzip <code>magicpdf-latest.zip</code> anywhere (including USB flash drives) and run <code>MagicPDF.exe</code> directly with zero system modifications.</p>
-            <p><strong>Key Features:</strong> Split and merge PDFs; a visual page manager and magazine-style flip viewer; scan to PDF from WIA, SANE and network (eSCL) scanners with OpenCV clean-up; read documents aloud with per-language voices, adjustable speed and a reading view that highlights the text as it is read; and remove passwords from protected PDFs. Six interface languages (English, French, Spanish, Italian, German, Arabic) and three themes.</p>
+            <p><strong>Windows:</strong> Unzip the download anywhere and run <code>MagicPDF.exe</code>. Runs 100% locally from your drive or USB stick.</p>
           </div>
         </details>
       </article>
@@ -289,38 +649,19 @@
             <a class="btn is-primary"
                href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-portable.zip"
                data-asset="magicvideo-portable.zip">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/>
-              </svg>
+              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4.6 10.4 3.6v7.6H3Zm0 14.8 7.4 1V12.8H3Zm9-15.9L21 2.2v9H12Zm0 17.4L21 21.8v-9H12Z"/></svg>
               <span class="btn-text">
                 <span class="btn-label">Download MagicVideo for Windows</span>
-                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; no installer</span>
+                <span class="btn-meta" data-role="meta">Windows 10/11 &middot; 64-bit &middot; Portable ZIP (~151 MB)</span>
               </span>
             </a>
-          </li>
-          <li>
-            <span class="btn is-pending"
-                  data-pending-asset="magicvideo-macos.dmg"
-                  data-pending-href="https://github.com/alaahadyhostinger/magicvideo/releases/latest/download/magicvideo-macos.dmg"
-                  role="link" aria-disabled="true">
-              <svg class="os-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M16.4 12.7c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.8-3.5.8s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.8-2.2c.6-.9.9-1.4 1.3-2.4-2.4-.9-2.5-3.9-2.5-4Zm-2.3-7.5c.6-.8 1-1.8.9-2.9-.9 0-2 .6-2.7 1.4-.6.7-1 1.8-.9 2.8 1 .1 2-.5 2.7-1.3Z"/>
-              </svg>
-              <span class="btn-text">
-                <span class="btn-label">Download MagicVideo for macOS</span>
-                <span class="btn-meta">Coming soon</span>
-              </span>
-            </span>
           </li>
         </ul>
 
         <details class="notes">
-          <summary>Installation notes</summary>
+          <summary data-i18n="notesAndFeatures">Installation notes &amp; Features</summary>
           <div class="notes-body">
-            <p><strong>Windows.</strong> There is nothing to install. Unzip
-            <code>magicvideo-portable.zip</code> anywhere you like &mdash; a USB stick is fine &mdash;
-            and double-click <code>MagicVideo.exe</code> inside it.</p>
-            <p><strong>macOS.</strong> In development.</p>
+            <p><strong>Windows:</strong> Unzip <code>magicvideo-portable.zip</code> anywhere and double-click <code>MagicVideo.exe</code>.</p>
           </div>
         </details>
       </article>
@@ -328,42 +669,54 @@
     </div>
 
     <section class="advisory">
-      <h2>Security &amp; Code Signing</h2>
+      <h2 data-i18n="securityTitle">Security &amp; Cryptographic SHA-256 Verification</h2>
       <p class="signpath-note">
         <strong>🛡️ Code Signing Notice:</strong> This project uses <a href="https://signpath.org/" target="_blank" rel="noopener">SignPath Foundation</a> for secure code signing.
       </p>
-      <p>
-        While our signing pipeline is being finalized with the Certificate Authority, Windows SmartScreen may show an
-        “unrecognised publisher” notification &mdash; choose <strong>More info &rarr; Run anyway</strong>.
+      <p data-i18n="smartscreenNote">
+        While our signing pipeline is being finalized with the Certificate Authority, Windows SmartScreen may show an “unrecognised publisher” notification &mdash; choose <strong>More info &rarr; Run anyway</strong>.
       </p>
-      <p class="verify-intro">
-        You can also independently verify that your downloaded package matches our official build by checking its
-        SHA-256 fingerprint:
+      <p class="verify-intro" data-i18n="verifyIntro">
+        You can independently verify that any downloaded package matches our official build by checking its SHA-256 cryptographic fingerprint:
       </p>
       <div id="checksums" class="checksums">
         <table>
           <caption class="sr-only">SHA-256 checksums of current release files</caption>
           <thead>
-            <tr><th scope="col">File</th><th scope="col">Type</th><th scope="col">Size</th><th scope="col">SHA-256</th></tr>
+            <tr><th scope="col">Package File</th><th scope="col">Flavor</th><th scope="col">Size</th><th scope="col">SHA-256 Checksum</th></tr>
           </thead>
           <tbody id="checksum-rows">
-            <tr><td>magicwatch-setup-latest.zip</td><td>Setup Installer ZIP</td><td>~45 MB</td><td class="digest">b05fd2c7df263ec70f78812bbbdd399d5bcde695ccfe26eb8f0c3a438c58627e</td></tr>
-            <tr><td>magicwatch-latest.zip</td><td>Portable ZIP</td><td>~45 MB</td><td class="digest">6814f881f1502c2596d2d8b354d70e3956f3b0ab4036650f8cd6c1b6ba3e278b</td></tr>
-            <tr><td>magicmidi-setup-latest.zip</td><td>Setup Installer ZIP</td><td>~96 MB</td><td class="digest">939d34f1a4017b940260379e2e5b46b27a589c04fde7da9f2e38d0b3cf569dcc</td></tr>
-            <tr><td>magicmidi-latest.zip</td><td>Portable ZIP</td><td>~96 MB</td><td class="digest">ebb1610acf6ef24ab1dc3dd4792ba8b938b4f339f4ef61f008e7e572a35d27cc</td></tr>
-            <tr><td>magicpdf-setup-latest.zip</td><td>Setup Installer ZIP</td><td>~133 MB</td><td class="digest">4249c48d59c9279bc00e414dcf29a015c379a234764a8c7adf542bd7801aaf83</td></tr>
-            <tr><td>magicpdf-latest.zip</td><td>Portable ZIP</td><td>~131 MB</td><td class="digest">6b25fc2a57bdc568919ad24e33ef4a7b3a7e0a9889fab2260d5c666327263fc1</td></tr>
-            <tr><td>magicvideo-latest.zip</td><td>Portable ZIP</td><td>~151 MB</td><td class="digest">3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicnorton-setup-latest.zip">magicnorton-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~80.1 MB</td><td class="digest">8f5df485081153f3a971c2c7b064180caa8268e3390c070368c158f68db4a827</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicnorton-latest.zip">magicnorton-latest.zip</a></td><td>Portable ZIP</td><td>~79.9 MB</td><td class="digest">f21f46131fa0f5f5e96c7026d215c6851fd432b556eca49a8eb2f510742a84e1</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magiclivecamera-setup-latest.zip">magiclivecamera-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~204 MB</td><td class="digest">5e38a05dc1ee787e53c220ccc3a47285fb127e3cc3b64136f9b01494fcdc54cf</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magiclivecamera-latest.zip">magiclivecamera-latest.zip</a></td><td>Portable ZIP</td><td>~204 MB</td><td class="digest">8937d3a7c6b670ff960e12f3774b1ff1e5bf2011db73866c24166a1cf8309241</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicsudoku-android-latest.apk">magicsudoku-android-latest.apk</a></td><td>Android APK</td><td>~7.2 MB</td><td class="digest">0dd136586fe7a8abcc0b9568a1ffaee5ab10c3438f76b4476f49edad1f2a6083</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicsudoku-setup-latest.zip">magicsudoku-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~210 MB</td><td class="digest">6f71e3b5542d9a84917ce1f5dc7844778f325af5fe4f409fdbff92cdc38cd172</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicsudoku-latest.zip">magicsudoku-latest.zip</a></td><td>Portable ZIP</td><td>~210 MB</td><td class="digest">7aba2d3a61b8751e4a1254da4023e4fcafe7b0369010280b7cb75d718d997115</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicviewer-setup-latest.zip">magicviewer-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~66.8 MB</td><td class="digest">45f6d47d3f2e7df7dbfa911d19d17c3bba49865b7cba579cdfe1e629ae5186f4</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicviewer-latest.zip">magicviewer-latest.zip</a></td><td>Portable ZIP</td><td>~66.7 MB</td><td class="digest">1e58ad5ca8dc8e4e0d20b091319544fef4558eec7a540eeeb8cbc4e09e5b6f19</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magiccarve-setup-latest.zip">magiccarve-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~111 MB</td><td class="digest">d7145a487308ec565ec3c104b0ff9bec8924d06c3e1d53fd3060c216254bcddd</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magiccarve-latest.zip">magiccarve-latest.zip</a></td><td>Portable ZIP</td><td>~111 MB</td><td class="digest">aaf7a59bdd7d293f17e862a2dd31ff3778c2502408269bdbcee73067d5752f1e</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicstat-setup-latest.zip">magicstat-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~113 MB</td><td class="digest">a8ab98da8c0e013ea05399dcb5ad0421cfff3b5f0ec1f4ae034bd207f54570d5</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicstat-latest.zip">magicstat-latest.zip</a></td><td>Portable ZIP</td><td>~113 MB</td><td class="digest">75504c4a13e3356512a23425ffdc2c2202153d816cec2d747360d47bdf7ff588</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicwatch-setup-latest.zip">magicwatch-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~45.1 MB</td><td class="digest">b05fd2c7df263ec70f78812bbbdd399d5bcde695ccfe26eb8f0c3a438c58627e</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicwatch-latest.zip">magicwatch-latest.zip</a></td><td>Portable ZIP</td><td>~45.1 MB</td><td class="digest">6814f881f1502c2596d2d8b354d70e3956f3b0ab4036650f8cd6c1b6ba3e278b</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicmidi-setup-latest.zip">magicmidi-setup-latest.zip</a></td><td>Setup Installer ZIP</td><td>~95.5 MB</td><td class="digest">939d34f1a4017b940260379e2e5b46b27a589c04fde7da9f2e38d0b3cf569dcc</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicmidi-latest.zip">magicmidi-latest.zip</a></td><td>Portable ZIP</td><td>~95.5 MB</td><td class="digest">ebb1610acf6ef24ab1dc3dd4792ba8b938b4f339f4ef61f008e7e572a35d27cc</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicpdf-latest.zip">magicpdf-latest.zip</a></td><td>Portable ZIP</td><td>~38 MB</td><td class="digest">60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a</td></tr>
+            <tr><td><a href="https://download.amsol.ca/magicvideo-latest.zip">magicvideo-latest.zip</a></td><td>Portable ZIP</td><td>~151 MB</td><td class="digest">3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf</td></tr>
           </tbody>
         </table>
         <details class="notes">
-          <summary>How to check checksums in PowerShell</summary>
+          <summary>How to verify SHA-256 checksums in PowerShell</summary>
           <div class="notes-body">
-            <p><strong>Windows (PowerShell)</strong></p>
-            <pre><code>Get-FileHash .\magicwatch-setup-latest.zip -Algorithm SHA256
-Get-FileHash .\magicwatch-latest.zip -Algorithm SHA256
-Get-FileHash .\magicmidi-setup-latest.zip -Algorithm SHA256
-Get-FileHash .\magicmidi-latest.zip -Algorithm SHA256</code></pre>
+            <p><strong>Windows PowerShell:</strong></p>
+            <pre><code>Get-FileHash .\magicnorton-setup-latest.zip -Algorithm SHA256
+Get-FileHash .\magiclivecamera-setup-latest.zip -Algorithm SHA256
+Get-FileHash .\magicsudoku-setup-latest.zip -Algorithm SHA256
+Get-FileHash .\magicviewer-setup-latest.zip -Algorithm SHA256
+Get-FileHash .\magiccarve-setup-latest.zip -Algorithm SHA256
+Get-FileHash .\magicstat-setup-latest.zip -Algorithm SHA256</code></pre>
           </div>
         </details>
       </div>
@@ -375,14 +728,14 @@ Get-FileHash .\magicmidi-latest.zip -Algorithm SHA256</code></pre>
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <p class="copyright">
-      &copy; <span id="year">2026</span> Advanced Management Solutions &middot;
-      <a href="https://amsol.ca">amsol.ca</a>
+      &copy; <span id="year">2026</span> <strong>@Advanced Management Solutions</strong> &mdash;
+      <a href="https://amsol.ca" target="_blank" rel="noopener">https://amsol.ca</a>
     </p>
     <nav class="footer-links" aria-label="Footer links">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="https://github.com/alaahadyhostinger/magicpdf/releases">Magic PDF releases</a>
-      <a href="https://github.com/alaahadyhostinger/magicvideo/releases">Magic Video releases</a>
-      <a href="https://github.com/alaahadyhostinger/download">GitHub Portal</a>
+      <a href="privacy.html" data-i18n="navPrivacy">Privacy Policy</a>
+      <a href="https://amsol.ca" target="_blank" rel="noopener">AMSOL.ca</a>
+      <a href="https://github.com/alaahadyhostinger/download/releases" target="_blank" rel="noopener">All Releases</a>
+      <a href="https://github.com/alaahadyhostinger/download" target="_blank" rel="noopener">GitHub Portal</a>
     </nav>
   </div>
 </footer>
