@@ -8,8 +8,8 @@ Official distribution portal for **Advanced Management Solutions (AMSOL)** deskt
 
 | Application | Option / Flavor | OS | Download Package | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **Magic Courier** (`v1.1.0`) | **Setup (Installer)** | Windows 10/11 | [`magiccourier-setup-latest.zip`](https://download.amsol.ca/magiccourier-setup-latest.zip) (~74.6 MB) | `e7d87400b0a29a65002098b049192f6bc152fc9533d5c52ae7fb6b9d147a5241` |
-| **Magic Courier** (`v1.1.0`) | **Portable Version** | Windows 10/11 | [`magiccourier-latest.zip`](https://download.amsol.ca/magiccourier-latest.zip) (~74.5 MB) | `23af76569e29face188a92ad8c739de64b31750a5b265ec1bee43c5e2a5dc3c7` |
+| **Magic Courier** (`v1.1.0`) | **Setup (Installer)** | Windows 10/11 | [`magiccourier-setup-latest.zip`](https://download.amsol.ca/magiccourier-setup-latest.zip) (~75.7 MB) | `0b430e6e97ed9d33a462c39ae47e7163bf99501ae7704c2164f666a68ac67964` |
+| **Magic Courier** (`v1.1.0`) | **Portable Version** | Windows 10/11 | [`magiccourier-latest.zip`](https://download.amsol.ca/magiccourier-latest.zip) (~75.5 MB) | `2e992f718d799b87f585f6c2f33f25635d78eca59a0408a33c1b6b44e7d6fdbd` |
 | **Magic-Norton** (`v1.0.0`) | **Setup (Installer)** | Windows 10/11 | [`magicnorton-setup-latest.zip`](https://download.amsol.ca/magicnorton-setup-latest.zip) (~80.1 MB) | `8f5df485081153f3a971c2c7b064180caa8268e3390c070368c158f68db4a827` |
 | **Magic-Norton** (`v1.0.0`) | **Portable Version** | Windows 10/11 | [`magicnorton-latest.zip`](https://download.amsol.ca/magicnorton-latest.zip) (~79.9 MB) | `f21f46131fa0f5f5e96c7026d215c6851fd432b556eca49a8eb2f510742a84e1` |
 | **Magic Live Camera** (`v1.0.0`) | **Setup (Installer)** | Windows 10/11 | [`magiclivecamera-setup-latest.zip`](https://download.amsol.ca/magiclivecamera-setup-latest.zip) (~204 MB) | `5e38a05dc1ee787e53c220ccc3a47285fb127e3cc3b64136f9b01494fcdc54cf` |

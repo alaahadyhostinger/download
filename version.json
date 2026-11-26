@@ -10,15 +10,15 @@
         "url": "https://download.amsol.ca/magiccourier-setup-latest.zip",
         "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magiccourier-setup-latest.zip",
         "filename": "magiccourier-setup-latest.zip",
-        "size": 78195583,
-        "sha256": "e7d87400b0a29a65002098b049192f6bc152fc9533d5c52ae7fb6b9d147a5241"
+        "size": 79337657,
+        "sha256": "0b430e6e97ed9d33a462c39ae47e7163bf99501ae7704c2164f666a68ac67964"
       },
       "portable": {
         "url": "https://download.amsol.ca/magiccourier-latest.zip",
         "github_release_url": "https://github.com/alaahadyhostinger/download/releases/download/v2.0.0/magiccourier-latest.zip",
         "filename": "magiccourier-latest.zip",
-        "size": 78170069,
-        "sha256": "23af76569e29face188a92ad8c739de64b31750a5b265ec1bee43c5e2a5dc3c7"
+        "size": 79206531,
+        "sha256": "2e992f718d799b87f585f6c2f33f25635d78eca59a0408a33c1b6b44e7d6fdbd"
       },
       "published": "2026-11-26",
       "description": "Automated Gmail IMAP Courier Invoice PDF Harvester, Multi-Format PDF Parser, Auto-Scheduler & Excel Sync."
