@@ -8,6 +8,8 @@ Official distribution portal for **Advanced Management Solutions (AMSOL)** deskt
 
 | Application | Option / Flavor | OS | Download Package | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
+| **Magic Courier** (`v1.0.0`) | **Setup (Installer)** | Windows 10/11 | [`magiccourier-setup-latest.zip`](https://download.amsol.ca/magiccourier-setup-latest.zip) (~74.6 MB) | `a2cff5f7f1191b531928570481c1a96821085bd219e058b7c416aa3283478381` |
+| **Magic Courier** (`v1.0.0`) | **Portable Version** | Windows 10/11 | [`magiccourier-latest.zip`](https://download.amsol.ca/magiccourier-latest.zip) (~74.5 MB) | `4e6c861706015783eadb86fcbe67ecbccbc2365b79fa12cb59b60642713a5ca2` |
 | **Magic-Norton** (`v1.0.0`) | **Setup (Installer)** | Windows 10/11 | [`magicnorton-setup-latest.zip`](https://download.amsol.ca/magicnorton-setup-latest.zip) (~80.1 MB) | `8f5df485081153f3a971c2c7b064180caa8268e3390c070368c158f68db4a827` |
 | **Magic-Norton** (`v1.0.0`) | **Portable Version** | Windows 10/11 | [`magicnorton-latest.zip`](https://download.amsol.ca/magicnorton-latest.zip) (~79.9 MB) | `f21f46131fa0f5f5e96c7026d215c6851fd432b556eca49a8eb2f510742a84e1` |
 | **Magic Live Camera** (`v1.0.0`) | **Setup (Installer)** | Windows 10/11 | [`magiclivecamera-setup-latest.zip`](https://download.amsol.ca/magiclivecamera-setup-latest.zip) (~204 MB) | `5e38a05dc1ee787e53c220ccc3a47285fb127e3cc3b64136f9b01494fcdc54cf` |
@@ -23,8 +25,8 @@ Official distribution portal for **Advanced Management Solutions (AMSOL)** deskt
 | **Magic Stat** (`v1.0.0`) | **Portable Version** | Windows 10/11 | [`magicstat-latest.zip`](https://download.amsol.ca/magicstat-latest.zip) (~113 MB) | `75504c4a13e3356512a23425ffdc2c2202153d816cec2d747360d47bdf7ff588` |
 | **Magic-Watch** (`v1.2.0`) | **Setup (Installer)** | Windows 10/11 | [`magicwatch-setup-latest.zip`](https://download.amsol.ca/magicwatch-setup-latest.zip) (~45.1 MB) | `b05fd2c7df263ec70f78812bbbdd399d5bcde695ccfe26eb8f0c3a438c58627e` |
 | **Magic-Watch** (`v1.2.0`) | **Portable Version** | Windows 10/11 | [`magicwatch-latest.zip`](https://download.amsol.ca/magicwatch-latest.zip) (~45.1 MB) | `6814f881f1502c2596d2d8b354d70e3956f3b0ab4036650f8cd6c1b6ba3e278b` |
-| **MagicMidi** (`v1.3.0`) | **Setup (Installer)** | Windows 10/11 | [`magicmidi-setup-latest.zip`](https://download.amsol.ca/magicmidi-setup-latest.zip) (~95.5 MB) | `939d34f1a4017b940260379e2e5b46b27a589c04fde7da9f2e38d0b3cf569dcc` |
-| **MagicMidi** (`v1.3.0`) | **Portable Version** | Windows 10/11 | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) (~95.5 MB) | `ebb1610acf6ef24ab1dc3dd4792ba8b938b4f339f4ef61f008e7e572a35d27cc` |
+| **MagicMidi** (`v1.4.0`) | **Setup (Installer)** | Windows 10/11 | [`magicmidi-setup-latest.zip`](https://download.amsol.ca/magicmidi-setup-latest.zip) (~96.2 MB) | `80ab8273cc924884af691f2a15075c9aee4ba160073e33b4908094183e95474e` |
+| **MagicMidi** (`v1.4.0`) | **Portable Version** | Windows 10/11 | [`magicmidi-latest.zip`](https://download.amsol.ca/magicmidi-latest.zip) (~96.2 MB) | `cb9b352493271ed917e3c685dbe92b5a2217b4d57f98bb3d84ad744c102a1967` |
 | **Magic PDF** (`v1.5.0`) | Portable | Windows 10/11 | [`magicpdf-latest.zip`](https://download.amsol.ca/magicpdf-latest.zip) (~38 MB) | `60a4f5c22ee3a6509f6b92a2a07c3905cfc2c9ee5349e5d4a1329c314da17e0a` |
 | **Magic Video** (`v1.2.0`) | Portable | Windows 10/11 | [`magicvideo-portable.zip`](https://github.com/alaahadyhostinger/magicvideo/releases/latest) (~151 MB) | `3e6605b766ecad7f311c1d0bfa81024a1b02ea91bc0c8bc46fae859b85c13bcf` |
 
